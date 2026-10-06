@@ -1,0 +1,10 @@
+{
+  "cadence": {
+    "frequency": "weekly",
+    "weekday": "monday",
+    "hourUtc": 6
+  },
+  "analysis": {
+    "enabled": false
+  }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>全球财经十图看板</title>
+<link rel="stylesheet" href="css/dashboard.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1 id="page-title">全球财经媒体 · 本周十图</h1>
+  <div class="datebar" id="datebar">
+    <label for="edition-date">期次</label>
+    <select id="edition-date" aria-label="选择已发布期次"></select>
+    <p class="meta" id="edition-meta">正在读取已发布日期…</p>
+  </div>
+  <div class="period" id="period">正在载入已发布的版本…</div>
+</header>
+<div id="notice" class="notice" hidden></div>
+<div class="thesis" id="thesis"></div>
+<div class="grid" id="grid"></div>
+<div class="closing" id="closing"></div>
+<footer id="footer"></footer>
+</div>
+<script src="js/charts.js"></script>
+<script src="js/render.js"></script>
+<script src="js/router.js"></script>
+</body>
+</html>

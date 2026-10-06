@@ -1,0 +1,2049 @@
+{
+  "status": "published",
+  "publishDate": "2026-09-21",
+  "coverage": {
+    "start": "2026-09-14",
+    "end": "2026-09-20"
+  },
+  "documentTitle": "全球财经十图看板",
+  "title": "全球财经媒体 · 本周十图",
+  "periodHtml": "2026年9月14日 – 9月20日 &nbsp;·&nbsp; 生成于 2026 年 9 月 21 日 &nbsp;·&nbsp; 数据来源：美联储 H.15 / FOMC / BLS / CBO / FactSet Earnings Insight / BIS Quarterly Review / 欧洲央行 / 英格兰银行 / 日本银行 / 国家统计局 / CNBC / Trading Economics / Al Jazeera",
+  "thesisHtml": "\n  一句话概括本周：<b>美联储三年来第一次加息，但真正的新闻不是加息本身，而是加息之后长端美债收益率反而跌了。</b>\n  市场读懂了这套组合：核心 CPI 已经降到 2.4%（2021 年 3 月以来最低），通胀压力几乎全部来自一条海峡——加息压不住霍尔木兹，只能压住需求。\n  于是短端跟着政策利率抬，30 年期一周下行 6 个基点。<b>而美股之所以还在高位，靠的是盈利：标普三季度预期增速 28.9%，但剔除半导体后，科技板块从 63.3% 塌到 24.2%。</b>\n  一边是同步收紧的全球央行，一边是靠极少数公司撑起来的盈利，和一个把近一半资金押在科技上的私募信贷市场。\n",
+  "cards": [
+    {
+      "id": "c1",
+      "titleHtml": "<span class=\"num\">01</span> 一周之内，四家央行三家转鹰",
+      "sourceHtml": "来源：FOMC 9 月 16 日决议（12–0 全票）· 欧洲央行 9 月 10 日 · 英格兰银行 9 月 17 日（6–3）· 日本银行 9 月 18 日（7–2）",
+      "dataDates": [
+        {
+          "stated": "9 月 16 日",
+          "iso": "2026-09-16",
+          "where": "source",
+          "yearInferredFrom": "coverage"
+        },
+        {
+          "stated": "9 月 10 日",
+          "iso": "2026-09-10",
+          "where": "source",
+          "yearInferredFrom": "coverage"
+        },
+        {
+          "stated": "9 月 17 日",
+          "iso": "2026-09-17",
+          "where": "source",
+          "yearInferredFrom": "coverage"
+        },
+        {
+          "stated": "9 月 18 日",
+          "iso": "2026-09-18",
+          "where": "source",
+          "yearInferredFrom": "coverage"
+        }
+      ],
+      "stats": [
+        {
+          "k": "美联储新区间",
+          "v": "3.75–4.00%",
+          "tone": "down"
+        },
+        {
+          "k": "距上次加息",
+          "v": "2023年7月",
+          "tone": ""
+        },
+        {
+          "k": "表决结果",
+          "v": "12 – 0",
+          "tone": "acc"
+        }
+      ],
+      "chart": {
+        "id": "c1",
+        "type": "bar",
+        "labels": [
+          [
+            "美联储",
+            "区间中值"
+          ],
+          [
+            "欧央行",
+            "存款便利"
+          ],
+          [
+            "英格兰银行"
+          ],
+          [
+            "日本银行"
+          ]
+        ],
+        "datasets": [
+          {
+            "label": "决议前",
+            "data": [
+              3.625,
+              2.25,
+              3.75,
+              1
+            ],
+            "backgroundColor": "#c3d4e8",
+            "borderRadius": 3
+          },
+          {
+            "label": "决议后",
+            "data": [
+              3.875,
+              2.5,
+              3.75,
+              1.25
+            ],
+            "backgroundColor": "#d43f45",
+            "borderRadius": 3
+          }
+        ],
+        "legend": true,
+        "tooltipFormatter": "c1PercentTrim",
+        "tickFormatter": "pct",
+        "y": {
+          "beginAtZero": true,
+          "max": 4.5
+        },
+        "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "sourceStatus": "present"
+      },
+      "primary": {
+        "href": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "target": "_blank",
+        "rel": "noopener",
+        "html": "查看原始图表 / 数据来源<span class=\"who\">美联储 · FOMC 会议日历与声明原文</span><span class=\"arw\">↗</span>"
+      },
+      "citeHtml": "其他出处：\n      <a href=\"https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html\" target=\"_blank\" rel=\"noopener\">CNBC · 9 月加息 25bp</a>\n      <a href=\"https://kpmg.com/us/en/articles/2026/september-2026-fomc-meeting.html\" target=\"_blank\" rel=\"noopener\">KPMG · Warsh 强调独立性</a>\n      <a href=\"https://www.euronews.com/business/2026/09/17/bank-of-england-holds-rates-at-375-in-6-3-split-vote-as-inflation-hits-five-month-high\" target=\"_blank\" rel=\"noopener\">Euronews · 英央行 6–3 按兵不动</a>\n      <a href=\"https://www.fxstreet.com/analysis/bank-of-japan-hikes-and-bank-of-england-on-hold-202609180552\" target=\"_blank\" rel=\"noopener\">FXStreet · 日本银行加息至 1.25%</a>\n    ",
+      "cites": [
+        {
+          "href": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "CNBC · 9 月加息 25bp"
+        },
+        {
+          "href": "https://kpmg.com/us/en/articles/2026/september-2026-fomc-meeting.html",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "KPMG · Warsh 强调独立性"
+        },
+        {
+          "href": "https://www.euronews.com/business/2026/09/17/bank-of-england-holds-rates-at-375-in-6-3-split-vote-as-inflation-hits-five-month-high",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "Euronews · 英央行 6–3 按兵不动"
+        },
+        {
+          "href": "https://www.fxstreet.com/analysis/bank-of-japan-hikes-and-bank-of-england-on-hold-202609180552",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "FXStreet · 日本银行加息至 1.25%"
+        }
+      ],
+      "takeHtml": "<span class=\"lbl\">核心观点</span>美联储把联邦基金利率区间抬到 3.75–4.00%，是 2023 年 7 月以来的首次加息，且为 12–0 全票通过——在一个被反复质疑独立性的年份，全票本身就是信号。主席 Kevin Warsh 的措辞是通胀\"太高、太久\"。同一周，欧央行把存款便利利率从 2.25% 抬到 2.50%，日本银行加息至 1.25%（7–2），只有英格兰银行以 6–3 维持 3.75%，且三张反对票全部投向加息。<b>9 月点阵图的 2027 年中位数被从 6 月的 3.6% 上修到 4.1%</b>，2028 年 3.9%、2029 年 3.6%——整条路径整体上移约 30 个基点。",
+      "whyHtml": "<span class=\"lbl\">为什么重要</span>2024–25 年全球央行的主旋律是各走各路：谁的通胀先回落谁先降。本周是自 2022 年以来<b>第一次出现方向一致的收紧</b>，而且触发因素是共同的——欧央行的措辞直接点名\"中东冲突带来的通胀压力\"。这是周期性还是结构性？<b>如果油价是原因，那这轮同步收紧是对供给冲击的被动反应，而非需求过热的主动降温</b>；前者一旦油价回落会很快逆转，后者不会。这决定了你该把 4% 当成终点还是中继。",
+      "sources": [
+        {
+          "field": "primary",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+          "status": "present",
+          "label": "查看原始图表 / 数据来源美联储 · FOMC 会议日历与声明原文↗"
+        },
+        {
+          "field": "cite",
+          "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
+          "status": "present",
+          "label": "CNBC · 9 月加息 25bp"
+        },
+        {
+          "field": "cite",
+          "url": "https://kpmg.com/us/en/articles/2026/september-2026-fomc-meeting.html",
+          "status": "present",
+          "label": "KPMG · Warsh 强调独立性"
+        },
+        {
+          "field": "cite",
+          "url": "https://www.euronews.com/business/2026/09/17/bank-of-england-holds-rates-at-375-in-6-3-split-vote-as-inflation-hits-five-month-high",
+          "status": "present",
+          "label": "Euronews · 英央行 6–3 按兵不动"
+        },
+        {
+          "field": "cite",
+          "url": "https://www.fxstreet.com/analysis/bank-of-japan-hikes-and-bank-of-england-on-hold-202609180552",
+          "status": "present",
+          "label": "FXStreet · 日本银行加息至 1.25%"
+        }
+      ],
+      "metrics": [
+        {
+          "id": "c1:决议前:0",
+          "value": 3.625,
+          "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+          "status": "present"
+        },
+        {
+          "id": "c1:决议前:1",
+          "value": 2.25,
+          "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+          "status": "present"
+        },
+        {
+          "id": "c1:决议前:2",
+          "value": 3.75,
+          "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+          "status": "present"
+        },
+        {
+          "id": "c1:决议前:3",
+          "value": 1,
+          "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+          "status": "present"
+        },
+        {
+          "id": "c1:决议后:0",
+          "value": 3.875,
+          "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+          "status": "present"
+        },
+        {
+          "id": "c1:决议后:1",
+          "value": 2.5,
+          "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+          "status": "present"
+        },
+        {
+          "id": "c1:决议后:2",
+          "value": 3.75,
+          "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+          "status": "present"
+        },
+        {
+          "id": "c1:决议后:3",
+          "value": 1.25,
+          "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "titleHtml": "<span class=\"num\">02</span> 核心通胀创四年半新低的那一周，美联储加息了",
+      "sourceHtml": "来源：美国劳工统计局《Consumer Price Index — August 2026》（9 月 11 日发布）· CNBC 解读",
+      "dataDates": [
+        {
+          "stated": "9 月 11 日",
+          "iso": "2026-09-11",
+          "where": "source",
+          "yearInferredFrom": "coverage"
+        },
+        {
+          "stated": "August 2026",
+          "iso": "2026-08",
+          "where": "source"
+        }
+      ],
+      "stats": [
+        {
+          "k": "总体 CPI 同比",
+          "v": "3.4%",
+          "tone": "down"
+        },
+        {
+          "k": "核心 CPI 同比",
+          "v": "2.4%",
+          "tone": "up"
+        },
+        {
+          "k": "汽油同比",
+          "v": "+27.4%",
+          "tone": "gold"
+        }
+      ],
+      "chart": {
+        "id": "c2",
+        "type": "bar",
+        "labels": [
+          [
+            "核心 CPI",
+            "7 月"
+          ],
+          [
+            "核心 CPI",
+            "8 月"
+          ],
+          [
+            "总体 CPI",
+            "8 月"
+          ],
+          [
+            "汽油",
+            "8 月同比"
+          ]
+        ],
+        "datasets": [
+          {
+            "data": [
+              2.5,
+              2.4,
+              3.4,
+              27.4
+            ],
+            "backgroundColor": [
+              "#c3d4e8",
+              "#1a8f47",
+              "#d43f45",
+              "#c9930f"
+            ],
+            "borderRadius": 3
+          }
+        ],
+        "legend": false,
+        "tooltipFormatter": "yoyPlus",
+        "tickFormatter": "pct",
+        "y": {
+          "beginAtZero": true,
+          "max": 30
+        },
+        "sourceUrl": "https://www.bls.gov/news.release/cpi.nr0.htm",
+        "sourceStatus": "present"
+      },
+      "primary": {
+        "href": "https://www.bls.gov/news.release/cpi.nr0.htm",
+        "target": "_blank",
+        "rel": "noopener",
+        "html": "查看原始图表 / 数据来源<span class=\"who\">BLS · CPI 新闻稿正文与分项表</span><span class=\"arw\">↗</span>"
+      },
+      "citeHtml": "其他出处：\n      <a href=\"https://www.bls.gov/news.release/PDF/cpi.PDF\" target=\"_blank\" rel=\"noopener\">BLS · PDF 全文</a>\n      <a href=\"https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html\" target=\"_blank\" rel=\"noopener\">CNBC · 8 月 CPI 全文解读</a>\n      <a href=\"https://tradingeconomics.com/united-states/core-inflation-rate\" target=\"_blank\" rel=\"noopener\">Trading Economics · 核心通胀历史序列</a>\n    ",
+      "cites": [
+        {
+          "href": "https://www.bls.gov/news.release/PDF/cpi.PDF",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "BLS · PDF 全文"
+        },
+        {
+          "href": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "CNBC · 8 月 CPI 全文解读"
+        },
+        {
+          "href": "https://tradingeconomics.com/united-states/core-inflation-rate",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "Trading Economics · 核心通胀历史序列"
+        }
+      ],
+      "takeHtml": "<span class=\"lbl\">核心观点</span>核心 CPI 同比 2.4%，从 7 月的 2.5% 继续下行，<b>是 2021 年 3 月以来的最低读数</b>——也就是说，按美联储最常引用的那个口径，通胀已经基本回到目标附近。但总体 CPI 是 3.4%：汽油单月跳涨 3.9%（7 月还是 <span style=\"white-space:nowrap\">-2.9%</span>），同比从 7 月的 +24.6% 进一步抬到 +27.4%。核心环比 0.3% 略高于预期，餐饮、新车与二手车、住房、交通都有明显涨幅。",
+      "whyHtml": "<span class=\"lbl\">为什么重要</span>这是本期最锋利的一处<b>口径反差</b>：同一份报告，看核心你会说\"该降息了\"，看总体你会说\"必须加息\"。美联储选了后者。这暴露了反应函数的一次切换——<b>当总体与核心的裂口来自供给侧时，教科书说央行应当\"看穿\"（look through）它；本周的决定说明这条规则在二次通胀的阴影下已经被搁置</b>。代价是：用需求端的工具去对付供给端的价格，压下去的会是就业和投资，而不是油价。",
+      "sources": [
+        {
+          "field": "primary",
+          "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+          "status": "present",
+          "label": "查看原始图表 / 数据来源BLS · CPI 新闻稿正文与分项表↗"
+        },
+        {
+          "field": "cite",
+          "url": "https://www.bls.gov/news.release/PDF/cpi.PDF",
+          "status": "present",
+          "label": "BLS · PDF 全文"
+        },
+        {
+          "field": "cite",
+          "url": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
+          "status": "present",
+          "label": "CNBC · 8 月 CPI 全文解读"
+        },
+        {
+          "field": "cite",
+          "url": "https://tradingeconomics.com/united-states/core-inflation-rate",
+          "status": "present",
+          "label": "Trading Economics · 核心通胀历史序列"
+        }
+      ],
+      "metrics": [
+        {
+          "id": "c2:series1:0",
+          "value": 2.5,
+          "sourceUrl": "https://www.bls.gov/news.release/cpi.nr0.htm",
+          "status": "present"
+        },
+        {
+          "id": "c2:series1:1",
+          "value": 2.4,
+          "sourceUrl": "https://www.bls.gov/news.release/cpi.nr0.htm",
+          "status": "present"
+        },
+        {
+          "id": "c2:series1:2",
+          "value": 3.4,
+          "sourceUrl": "https://www.bls.gov/news.release/cpi.nr0.htm",
+          "status": "present"
+        },
+        {
+          "id": "c2:series1:3",
+          "value": 27.4,
+          "sourceUrl": "https://www.bls.gov/news.release/cpi.nr0.htm",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "titleHtml": "<span class=\"num\">03</span> 非农超预期三倍，把\"劳动力走弱\"这张牌打没了",
+      "sourceHtml": "来源：美国劳工统计局《The Employment Situation — August 2026》（9 月 4 日发布）· CNBC 事前调查中值",
+      "dataDates": [
+        {
+          "stated": "9 月 4 日",
+          "iso": "2026-09-04",
+          "where": "source",
+          "yearInferredFrom": "coverage"
+        },
+        {
+          "stated": "August 2026",
+          "iso": "2026-08",
+          "where": "source"
+        }
+      ],
+      "stats": [
+        {
+          "k": "8 月新增非农",
+          "v": "16.2 万",
+          "tone": "up"
+        },
+        {
+          "k": "市场预期",
+          "v": "5.3 万",
+          "tone": ""
+        },
+        {
+          "k": "时薪同比",
+          "v": "+3.1%",
+          "tone": ""
+        }
+      ],
+      "chart": {
+        "id": "c3",
+        "type": "bar",
+        "labels": [
+          [
+            "市场预期"
+          ],
+          [
+            "8 月实际"
+          ],
+          [
+            "休闲住宿"
+          ],
+          [
+            "医疗社救"
+          ],
+          [
+            "建筑"
+          ],
+          [
+            "制造"
+          ]
+        ],
+        "datasets": [
+          {
+            "data": [
+              53,
+              162,
+              62,
+              28.4,
+              22,
+              16
+            ],
+            "backgroundColor": [
+              "#c3d4e8",
+              "#1a8f47",
+              "#2b7cd3",
+              "#9ec4a8",
+              "#9ec4a8",
+              "#9ec4a8"
+            ],
+            "borderRadius": 3
+          }
+        ],
+        "legend": false,
+        "tooltipFormatter": "qianren",
+        "tickFormatter": "thousandsK",
+        "y": {
+          "beginAtZero": true,
+          "max": 180
+        },
+        "sourceUrl": "https://www.bls.gov/news.release/empsit.nr0.htm",
+        "sourceStatus": "present"
+      },
+      "primary": {
+        "href": "https://www.bls.gov/news.release/empsit.nr0.htm",
+        "target": "_blank",
+        "rel": "noopener",
+        "html": "查看原始图表 / 数据来源<span class=\"who\">BLS · Employment Situation 新闻稿</span><span class=\"arw\">↗</span>"
+      },
+      "citeHtml": "其他出处：\n      <a href=\"https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html\" target=\"_blank\" rel=\"noopener\">CNBC · 非农 16.2 万远超预期</a>\n      <a href=\"https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html\" target=\"_blank\" rel=\"noopener\">CNBC · 事前预期 5.3 万</a>\n      <a href=\"https://hiringlab.indeed.com/2026/09/04/august-2026-jobs-report-rebound-without-real-relief/\" target=\"_blank\" rel=\"noopener\">Indeed Hiring Lab · 反弹但无实质缓解</a>\n    ",
+      "cites": [
+        {
+          "href": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "CNBC · 非农 16.2 万远超预期"
+        },
+        {
+          "href": "https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "CNBC · 事前预期 5.3 万"
+        },
+        {
+          "href": "https://hiringlab.indeed.com/2026/09/04/august-2026-jobs-report-rebound-without-real-relief/",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "Indeed Hiring Lab · 反弹但无实质缓解"
+        }
+      ],
+      "takeHtml": "<span class=\"lbl\">核心观点</span>16.2 万对 5.3 万，是 3 月以来最强的单月增幅，失业率持平 4.1%，私人部门平均时薪 37.75 美元、同比 +3.1%。结构上<b>休闲与住宿业一家贡献 6.2 万</b>，医疗与社会救助 2.84 万、建筑 2.2 万、制造 1.6 万；而<b>信息业出现净减少，被普遍归因于 AI 相关的岗位替代</b>。",
+      "whyHtml": "<span class=\"lbl\">为什么重要</span>这份报告发布在加息前十二天，是 9 月决议最关键的前置条件：<b>在失业率 4.1%、时薪还在涨 3.1% 的经济体里，\"就业在走弱所以要容忍通胀\"不再是一个能用的论据</b>。值得单独记住的是信息业那一行——就业总量的周期性反弹里，嵌着一条结构性的、由 AI 驱动的白领岗位收缩曲线。这两条线未来会越走越远，而总量数据会把它们混在一起。",
+      "sources": [
+        {
+          "field": "primary",
+          "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+          "status": "present",
+          "label": "查看原始图表 / 数据来源BLS · Employment Situation 新闻稿↗"
+        },
+        {
+          "field": "cite",
+          "url": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html",
+          "status": "present",
+          "label": "CNBC · 非农 16.2 万远超预期"
+        },
+        {
+          "field": "cite",
+          "url": "https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html",
+          "status": "present",
+          "label": "CNBC · 事前预期 5.3 万"
+        },
+        {
+          "field": "cite",
+          "url": "https://hiringlab.indeed.com/2026/09/04/august-2026-jobs-report-rebound-without-real-relief/",
+          "status": "present",
+          "label": "Indeed Hiring Lab · 反弹但无实质缓解"
+        }
+      ],
+      "metrics": [
+        {
+          "id": "c3:series1:0",
+          "value": 53,
+          "sourceUrl": "https://www.bls.gov/news.release/empsit.nr0.htm",
+          "status": "present"
+        },
+        {
+          "id": "c3:series1:1",
+          "value": 162,
+          "sourceUrl": "https://www.bls.gov/news.release/empsit.nr0.htm",
+          "status": "present"
+        },
+        {
+          "id": "c3:series1:2",
+          "value": 62,
+          "sourceUrl": "https://www.bls.gov/news.release/empsit.nr0.htm",
+          "status": "present"
+        },
+        {
+          "id": "c3:series1:3",
+          "value": 28.4,
+          "sourceUrl": "https://www.bls.gov/news.release/empsit.nr0.htm",
+          "status": "present"
+        },
+        {
+          "id": "c3:series1:4",
+          "value": 22,
+          "sourceUrl": "https://www.bls.gov/news.release/empsit.nr0.htm",
+          "status": "present"
+        },
+        {
+          "id": "c3:series1:5",
+          "value": 16,
+          "sourceUrl": "https://www.bls.gov/news.release/empsit.nr0.htm",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "titleHtml": "<span class=\"num\">04</span> 加息日之后，长端反而跌了",
+      "sourceHtml": "来源：美联储 H.15《Selected Interest Rates (Daily)》，9 月 18 日发布，比较 9 月 11 日（加息前）与 9 月 17 日（加息次日）",
+      "dataDates": [
+        {
+          "stated": "9 月 18 日",
+          "iso": "2026-09-18",
+          "where": "source",
+          "yearInferredFrom": "coverage"
+        },
+        {
+          "stated": "9 月 11 日",
+          "iso": "2026-09-11",
+          "where": "source",
+          "yearInferredFrom": "coverage"
+        },
+        {
+          "stated": "9 月 17 日",
+          "iso": "2026-09-17",
+          "where": "source",
+          "yearInferredFrom": "coverage"
+        },
+        {
+          "stated": "（9/16）",
+          "iso": "2026-09-16",
+          "where": "stat",
+          "yearInferredFrom": "coverage"
+        }
+      ],
+      "stats": [
+        {
+          "k": "30 年期",
+          "v": "5.35 → 5.29%",
+          "tone": "up"
+        },
+        {
+          "k": "2 年期",
+          "v": "4.63 → 4.67%",
+          "tone": "down"
+        },
+        {
+          "k": "10 年期盘中高点",
+          "v": "5.01%（9/16）",
+          "tone": "gold"
+        }
+      ],
+      "chart": {
+        "id": "c4",
+        "type": "line",
+        "labels": [
+          "1M",
+          "3M",
+          "6M",
+          "1Y",
+          "2Y",
+          "3Y",
+          "5Y",
+          "7Y",
+          "10Y",
+          "20Y",
+          "30Y"
+        ],
+        "datasets": [
+          {
+            "label": "9 月 11 日（加息前）",
+            "data": [
+              3.93,
+              4.07,
+              4.12,
+              4.35,
+              4.63,
+              4.69,
+              4.78,
+              4.87,
+              4.96,
+              5.38,
+              5.35
+            ],
+            "backgroundColor": "rgba(157,180,207,.10)",
+            "borderColor": "#9db4cf",
+            "borderWidth": 2,
+            "borderDash": [
+              5,
+              4
+            ],
+            "fill": false,
+            "tension": 0.3,
+            "pointRadius": 3,
+            "pointBackgroundColor": "#9db4cf"
+          },
+          {
+            "label": "9 月 17 日（加息次日）",
+            "data": [
+              3.97,
+              4.12,
+              4.2,
+              4.4,
+              4.67,
+              4.75,
+              4.78,
+              4.86,
+              4.94,
+              5.32,
+              5.29
+            ],
+            "backgroundColor": "rgba(212,63,69,.08)",
+            "borderColor": "#d43f45",
+            "borderWidth": 2.5,
+            "fill": false,
+            "tension": 0.3,
+            "pointRadius": 3,
+            "pointBackgroundColor": "#d43f45"
+          }
+        ],
+        "legend": true,
+        "tooltipFormatter": "twoDecimals",
+        "tickFormatter": "pct",
+        "y": {
+          "min": 3.8,
+          "max": 5.5
+        },
+        "sourceUrl": "https://www.federalreserve.gov/releases/h15/",
+        "sourceStatus": "present"
+      },
+      "primary": {
+        "href": "https://www.federalreserve.gov/releases/h15/",
+        "target": "_blank",
+        "rel": "noopener",
+        "html": "查看原始图表 / 数据来源<span class=\"who\">美联储 · H.15 每日利率表（含当周全部期限）</span><span class=\"arw\">↗</span>"
+      },
+      "citeHtml": "其他出处：\n      <a href=\"https://fred.stlouisfed.org/series/dgs10\" target=\"_blank\" rel=\"noopener\">FRED · DGS10 历史序列</a>\n      <a href=\"https://fred.stlouisfed.org/series/dgs30\" target=\"_blank\" rel=\"noopener\">FRED · DGS30 历史序列</a>\n      <a href=\"https://tradingeconomics.com/united-states/government-bond-yield\" target=\"_blank\" rel=\"noopener\">Trading Economics · 10 年期美债</a>\n    ",
+      "cites": [
+        {
+          "href": "https://fred.stlouisfed.org/series/dgs10",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "FRED · DGS10 历史序列"
+        },
+        {
+          "href": "https://fred.stlouisfed.org/series/dgs30",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "FRED · DGS30 历史序列"
+        },
+        {
+          "href": "https://tradingeconomics.com/united-states/government-bond-yield",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "Trading Economics · 10 年期美债"
+        }
+      ],
+      "takeHtml": "<span class=\"lbl\">核心观点</span>H.15 的原始数字：有效联邦基金利率从 3.63% 跳到 3.88%，银行最优惠利率 6.75%→7.00%，贴现窗口 3.75%→4.00%——政策端确实抬了 25 个基点。但曲线的反应是<b>短端抬、长端落</b>：2 年期 4.63→4.67%，3 年期 4.69→4.75%，而 10 年期 4.96→4.94%、20 年期 5.38→5.32%、30 年期 5.35→5.29%。5 年期原地不动（4.78%），成了整条曲线的支点。10 年期在决议当天盘中触及 5.01%，随后回落。",
+      "whyHtml": "<span class=\"lbl\">为什么重要</span>教科书里的牛市平坦化（bull flattening）：<b>市场在说\"我们相信你能把通胀按住，代价是增长\"</b>。更准确的读法是，长端的下行同时抵消了两股力量——一边是加息带来的实际利率上行，一边是通胀预期的回落（10 年期 TIPS 盈亏平衡隐含值本周基本持平）。这与 BIS 9 月季报\"收益率上行但风险偏好未散\"的判断对上了：<b>债市认了紧缩，但还没认衰退。</b>这条曲线接下来是继续平坦还是重新陡峭，比 10 年期的绝对点位更值得盯。",
+      "sources": [
+        {
+          "field": "primary",
+          "url": "https://www.federalreserve.gov/releases/h15/",
+          "status": "present",
+          "label": "查看原始图表 / 数据来源美联储 · H.15 每日利率表（含当周全部期限）↗"
+        },
+        {
+          "field": "cite",
+          "url": "https://fred.stlouisfed.org/series/dgs10",
+          "status": "present",
+          "label": "FRED · DGS10 历史序列"
+        },
+        {
+          "field": "cite",
+          "url": "https://fred.stlouisfed.org/series/dgs30",
+          "status": "present",
+          "label": "FRED · DGS30 历史序列"
+        },
+        {
+          "field": "cite",
+          "url": "https://tradingeconomics.com/united-states/government-bond-yield",
+          "status": "present",
+          "label": "Trading Economics · 10 年期美债"
+        }
+      ],
+      "metrics": [
+        {
+          "id": "c4:9 月 11 日（加息前）:0",
+          "value": 3.93,
+          "sourceUrl": "https://www.federalreserve.gov/releases/h15/",
+          "status": "present"
+        },
+        {
+          "id": "c4:9 月 11 日（加息前）:1",
+          "value": 4.07,
+          "sourceUrl": "https://www.federalreserve.gov/releases/h15/",
+          "status": "present"
+        },
+        {
+          "id": "c4:9 月 11 日（加息前）:2",
+          "value": 4.12,
+          "sourceUrl": "https://www.federalreserve.gov/releases/h15/",
+          "status": "present"
+        },
+        {
+          "id": "c4:9 月 11 日（加息前）:3",
+          "value": 4.35,
+          "sourceUrl": "https://www.federalreserve.gov/releases/h15/",
+          "status": "present"
+        },
+        {
+          "id": "c4:9 月 11 日（加息前）:4",
+          "value": 4.63,
+          "sourceUrl": "https://www.federalreserve.gov/releases/h15/",
+          "status": "present"
+        },
+        {
+          "id": "c4:9 月 11 日（加息前）:5",
+          "value": 4.69,
+          "sourceUrl": "https://www.federalreserve.gov/releases/h15/",
+          "status": "present"
+        },
+        {
+          "id": "c4:9 月 11 日（加息前）:6",
+          "value": 4.78,
+          "sourceUrl": "https://www.federalreserve.gov/releases/h15/",
+          "status": "present"
+        },
+        {
+          "id": "c4:9 月 11 日（加息前）:7",
+          "value": 4.87,
+          "sourceUrl": "https://www.federalreserve.gov/releases/h15/",
+          "status": "present"
+        },
+        {
+          "id": "c4:9 月 11 日（加息前）:8",
+          "value": 4.96,
+          "sourceUrl": "https://www.federalreserve.gov/releases/h15/",
+          "status": "present"
+        },
+        {
+          "id": "c4:9 月 11 日（加息前）:9",
+          "value": 5.38,
+          "sourceUrl": "https://www.federalreserve.gov/releases/h15/",
+          "status": "present"
+        },
+        {
+          "id": "c4:9 月 11 日（加息前）:10",
+          "value": 5.35,
+          "sourceUrl": "https://www.federalreserve.gov/releases/h15/",
+          "status": "present"
+        },
+        {
+          "id": "c4:9 月 17 日（加息次日）:0",
+          "value": 3.97,
+          "sourceUrl": "https://www.federalreserve.gov/releases/h15/",
+          "status": "present"
+        },
+        {
+          "id": "c4:9 月 17 日（加息次日）:1",
+          "value": 4.12,
+          "sourceUrl": "https://www.federalreserve.gov/releases/h15/",
+          "status": "present"
+        },
+        {
+          "id": "c4:9 月 17 日（加息次日）:2",
+          "value": 4.2,
+          "sourceUrl": "https://www.federalreserve.gov/releases/h15/",
+          "status": "present"
+        },
+        {
+          "id": "c4:9 月 17 日（加息次日）:3",
+          "value": 4.4,
+          "sourceUrl": "https://www.federalreserve.gov/releases/h15/",
+          "status": "present"
+        },
+        {
+          "id": "c4:9 月 17 日（加息次日）:4",
+          "value": 4.67,
+          "sourceUrl": "https://www.federalreserve.gov/releases/h15/",
+          "status": "present"
+        },
+        {
+          "id": "c4:9 月 17 日（加息次日）:5",
+          "value": 4.75,
+          "sourceUrl": "https://www.federalreserve.gov/releases/h15/",
+          "status": "present"
+        },
+        {
+          "id": "c4:9 月 17 日（加息次日）:6",
+          "value": 4.78,
+          "sourceUrl": "https://www.federalreserve.gov/releases/h15/",
+          "status": "present"
+        },
+        {
+          "id": "c4:9 月 17 日（加息次日）:7",
+          "value": 4.86,
+          "sourceUrl": "https://www.federalreserve.gov/releases/h15/",
+          "status": "present"
+        },
+        {
+          "id": "c4:9 月 17 日（加息次日）:8",
+          "value": 4.94,
+          "sourceUrl": "https://www.federalreserve.gov/releases/h15/",
+          "status": "present"
+        },
+        {
+          "id": "c4:9 月 17 日（加息次日）:9",
+          "value": 5.32,
+          "sourceUrl": "https://www.federalreserve.gov/releases/h15/",
+          "status": "present"
+        },
+        {
+          "id": "c4:9 月 17 日（加息次日）:10",
+          "value": 5.29,
+          "sourceUrl": "https://www.federalreserve.gov/releases/h15/",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "titleHtml": "<span class=\"num\">05</span> CBO 给 2026 年画了 4.1%，市场给了 5.0%",
+      "sourceHtml": "来源：美国国会预算办公室《The Budget and Economic Outlook: 2026 to 2036》· 实际收益率取自美联储 H.15",
+      "dataDates": [
+        {
+          "stated": "9 月 16 日",
+          "iso": "2026-09-16",
+          "where": "chartLabel",
+          "yearInferredFrom": "coverage"
+        },
+        {
+          "stated": "9 月 17 日",
+          "iso": "2026-09-17",
+          "where": "chartLabel",
+          "yearInferredFrom": "coverage"
+        }
+      ],
+      "stats": [
+        {
+          "k": "FY2026 赤字",
+          "v": "1.9 万亿美元",
+          "tone": "down"
+        },
+        {
+          "k": "占 GDP 比重",
+          "v": "5.8%",
+          "tone": "down"
+        },
+        {
+          "k": "预测与现实之差",
+          "v": "约 90 bp",
+          "tone": "gold"
+        }
+      ],
+      "chart": {
+        "id": "c5",
+        "type": "bar",
+        "labels": [
+          [
+            "CBO 预测",
+            "2026 年"
+          ],
+          [
+            "CBO 预测",
+            "2031 年"
+          ],
+          [
+            "实际",
+            "9 月 16 日"
+          ],
+          [
+            "实际",
+            "9 月 17 日"
+          ]
+        ],
+        "datasets": [
+          {
+            "data": [
+              4.1,
+              4.4,
+              5.01,
+              4.94
+            ],
+            "backgroundColor": [
+              "#c3d4e8",
+              "#c3d4e8",
+              "#d43f45",
+              "#2b7cd3"
+            ],
+            "borderRadius": 3
+          }
+        ],
+        "legend": false,
+        "tooltipFormatter": "yield10y",
+        "tickFormatter": "pct",
+        "y": {
+          "min": 3.5,
+          "max": 5.4
+        },
+        "sourceUrl": "https://www.cbo.gov/publication/61882",
+        "sourceStatus": "present"
+      },
+      "primary": {
+        "href": "https://www.cbo.gov/publication/61882",
+        "target": "_blank",
+        "rel": "noopener",
+        "html": "查看原始图表 / 数据来源<span class=\"who\">CBO · 2026–2036 预算与经济展望</span><span class=\"arw\">↗</span>"
+      },
+      "citeHtml": "其他出处：\n      <a href=\"https://www.cbo.gov/publication/62207\" target=\"_blank\" rel=\"noopener\">CBO · 国会作证文本</a>\n      <a href=\"https://bipartisanpolicy.org/explainer/the-fiscal-outlook-in-cbos-latest-10-year-baseline/\" target=\"_blank\" rel=\"noopener\">BPC · 十年基线解读</a>\n      <a href=\"https://www.pgpf.org/article/new-report-national-debt-outlook-gets-worse-as-interest-costs-exceed-1-trillion-annually/\" target=\"_blank\" rel=\"noopener\">PGPF · 利息支出破万亿</a>\n    ",
+      "cites": [
+        {
+          "href": "https://www.cbo.gov/publication/62207",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "CBO · 国会作证文本"
+        },
+        {
+          "href": "https://bipartisanpolicy.org/explainer/the-fiscal-outlook-in-cbos-latest-10-year-baseline/",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "BPC · 十年基线解读"
+        },
+        {
+          "href": "https://www.pgpf.org/article/new-report-national-debt-outlook-gets-worse-as-interest-costs-exceed-1-trillion-annually/",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "PGPF · 利息支出破万亿"
+        }
+      ],
+      "takeHtml": "<span class=\"lbl\">核心观点</span>CBO 在今年的基线里把 2026 年 10 年期美债收益率预测为 4.1%（去年版本是 3.9%），到 2031 年升至 4.4%，并明确把这条上行路径归因于<b>期限溢价</b>而非短端政策利率——理由是持续的巨额赤字，以及 OBBBA 带来的额外需求。现实是：9 月 16 日 10 年期收 5.01%，17 日 4.94%。<b>换句话说，CBO 对未来五年的全部利率上行幅度（4.1%→4.4%，30bp），市场在 2026 年 9 月一周之内就已经超出了三倍。</b>",
+      "whyHtml": "<span class=\"lbl\">为什么重要</span>这不是在挑 CBO 的错——官方基线的作用本就是给出中性假设。真正的信息是<b>财政成本的复利问题</b>：1.9 万亿美元赤字（5.8% GDP）需要在一个 5% 而非 4.1% 的长端上滚动融资，全部利息支出的轨迹会因此系统性上移，而利息又进赤字。这是纯结构性的，与油价、与周期无关：<b>即使通胀明天回到 2%，国债供给曲线和期限溢价的问题仍在那里。</b>BIS 本季的市场综述把\"财政负担可持续性\"与霍尔木兹并列为两大压力源，正是这个意思。",
+      "sources": [
+        {
+          "field": "primary",
+          "url": "https://www.cbo.gov/publication/61882",
+          "status": "present",
+          "label": "查看原始图表 / 数据来源CBO · 2026–2036 预算与经济展望↗"
+        },
+        {
+          "field": "cite",
+          "url": "https://www.cbo.gov/publication/62207",
+          "status": "present",
+          "label": "CBO · 国会作证文本"
+        },
+        {
+          "field": "cite",
+          "url": "https://bipartisanpolicy.org/explainer/the-fiscal-outlook-in-cbos-latest-10-year-baseline/",
+          "status": "present",
+          "label": "BPC · 十年基线解读"
+        },
+        {
+          "field": "cite",
+          "url": "https://www.pgpf.org/article/new-report-national-debt-outlook-gets-worse-as-interest-costs-exceed-1-trillion-annually/",
+          "status": "present",
+          "label": "PGPF · 利息支出破万亿"
+        }
+      ],
+      "metrics": [
+        {
+          "id": "c5:series1:0",
+          "value": 4.1,
+          "sourceUrl": "https://www.cbo.gov/publication/61882",
+          "status": "present"
+        },
+        {
+          "id": "c5:series1:1",
+          "value": 4.4,
+          "sourceUrl": "https://www.cbo.gov/publication/61882",
+          "status": "present"
+        },
+        {
+          "id": "c5:series1:2",
+          "value": 5.01,
+          "sourceUrl": "https://www.cbo.gov/publication/61882",
+          "status": "present"
+        },
+        {
+          "id": "c5:series1:3",
+          "value": 4.94,
+          "sourceUrl": "https://www.cbo.gov/publication/61882",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "titleHtml": "<span class=\"num\">06</span> 油价账面涨 47%，海峡上只有四条船",
+      "sourceHtml": "来源：FactSet Earnings Insight（9 月 18 日）油价口径 · Trading Economics 布伦特行情 · CNBC / Al Jazeera 霍尔木兹报道",
+      "dataDates": [
+        {
+          "stated": "9 月 18 日",
+          "iso": "2026-09-18",
+          "where": "source",
+          "yearInferredFrom": "coverage"
+        },
+        {
+          "stated": "6 月 30 日",
+          "iso": "2026-06-30",
+          "where": "chartLabel",
+          "yearInferredFrom": "coverage"
+        },
+        {
+          "stated": "9 月 18 日",
+          "iso": "2026-09-18",
+          "where": "chartLabel",
+          "yearInferredFrom": "coverage"
+        },
+        {
+          "stated": "Q3 2025",
+          "iso": "2025-Q3",
+          "where": "chartLabel"
+        },
+        {
+          "stated": "Q3 2026",
+          "iso": "2026-Q3",
+          "where": "chartLabel"
+        }
+      ],
+      "stats": [
+        {
+          "k": "较 6/30 涨幅",
+          "v": "+47%",
+          "tone": "down"
+        },
+        {
+          "k": "Q3 均价同比",
+          "v": "+30%",
+          "tone": "down"
+        },
+        {
+          "k": "周四过峡商船",
+          "v": "4 艘",
+          "tone": "gold"
+        }
+      ],
+      "chart": {
+        "id": "c6",
+        "type": "bar",
+        "labels": [
+          [
+            "Q3 2025",
+            "均价"
+          ],
+          [
+            "6 月 30 日",
+            "收盘"
+          ],
+          [
+            "Q3 2026",
+            "至今均价"
+          ],
+          [
+            "9 月 18 日",
+            "收盘"
+          ]
+        ],
+        "datasets": [
+          {
+            "data": [
+              64.97,
+              69.5,
+              84.39,
+              101.91
+            ],
+            "backgroundColor": [
+              "#c3d4e8",
+              "#c3d4e8",
+              "#c9930f",
+              "#d43f45"
+            ],
+            "borderRadius": 3
+          }
+        ],
+        "legend": false,
+        "tooltipFormatter": "usdPerBarrel",
+        "tickFormatter": "usd",
+        "y": {
+          "beginAtZero": true,
+          "max": 115
+        },
+        "sourceUrl": "https://www.factset.com/earningsinsight",
+        "sourceStatus": "present"
+      },
+      "primary": {
+        "href": "https://www.factset.com/earningsinsight",
+        "target": "_blank",
+        "rel": "noopener",
+        "html": "查看原始图表 / 数据来源<span class=\"who\">FactSet · Earnings Insight 第 7、9 页油价口径</span><span class=\"arw\">↗</span>"
+      },
+      "citeHtml": "其他出处：\n      <a href=\"https://tradingeconomics.com/commodity/brent-crude-oil\" target=\"_blank\" rel=\"noopener\">Trading Economics · 布伦特历史序列</a>\n      <a href=\"https://www.cnbc.com/2026/09/09/oil-prices-today-wti-brent-us-iran-hormuz-attacks.html\" target=\"_blank\" rel=\"noopener\">CNBC · 布伦特破百</a>\n      <a href=\"https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz\" target=\"_blank\" rel=\"noopener\">Al Jazeera · 美伊海峡互袭</a>\n    ",
+      "cites": [
+        {
+          "href": "https://tradingeconomics.com/commodity/brent-crude-oil",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "Trading Economics · 布伦特历史序列"
+        },
+        {
+          "href": "https://www.cnbc.com/2026/09/09/oil-prices-today-wti-brent-us-iran-hormuz-attacks.html",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "CNBC · 布伦特破百"
+        },
+        {
+          "href": "https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "Al Jazeera · 美伊海峡互袭"
+        }
+      ],
+      "takeHtml": "<span class=\"lbl\">核心观点</span>四根柱子用的是三个不同口径，差别本身就是重点：<b>Q3 2025 均价 64.97 美元 → Q3 2026 至今均价 84.39 美元（+30%）</b>，这是进损益表的数字；而 <b>6 月 30 日 69.50 美元 → 9 月 18 日 101.91 美元（+47%）</b>，这是进估值模型的数字。布伦特本周走势则是另一回事：周二冲到四个月高点 106 美元，周五回落到 103 美元下方，<b>全周反而跌 1.2%</b>。供给侧的细节更刺眼——沙特东西输油管道三座泵站在袭击中受损，修复时间未定；沙特把多达 6,000 万桶原油改用海峡外的船对船转运；周四全天仅侦测到 4 艘商船通过霍尔木兹。",
+      "whyHtml": "<span class=\"lbl\">为什么重要</span>一个典型的<b>量价背离</b>：价格在回落，但实物通行量几乎归零。这意味着当前的 103 美元里，<b>已经定价的是\"转运绕行的额外成本\"，而不是\"断供\"</b>——市场赌的是海峡最终会通。风险是不对称的：往下修复的空间有限（转运成本是刚性的），往上的尾部风险却随每一次袭击重新打开。对宏观而言，这条链路决定了第 02 图里那一个百分点的裂口能不能自己合上；对美联储而言，它是唯一一个货币政策打不到的变量。",
+      "sources": [
+        {
+          "field": "primary",
+          "url": "https://www.factset.com/earningsinsight",
+          "status": "present",
+          "label": "查看原始图表 / 数据来源FactSet · Earnings Insight 第 7、9 页油价口径↗"
+        },
+        {
+          "field": "cite",
+          "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+          "status": "present",
+          "label": "Trading Economics · 布伦特历史序列"
+        },
+        {
+          "field": "cite",
+          "url": "https://www.cnbc.com/2026/09/09/oil-prices-today-wti-brent-us-iran-hormuz-attacks.html",
+          "status": "present",
+          "label": "CNBC · 布伦特破百"
+        },
+        {
+          "field": "cite",
+          "url": "https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz",
+          "status": "present",
+          "label": "Al Jazeera · 美伊海峡互袭"
+        }
+      ],
+      "metrics": [
+        {
+          "id": "c6:series1:0",
+          "value": 64.97,
+          "sourceUrl": "https://www.factset.com/earningsinsight",
+          "status": "present"
+        },
+        {
+          "id": "c6:series1:1",
+          "value": 69.5,
+          "sourceUrl": "https://www.factset.com/earningsinsight",
+          "status": "present"
+        },
+        {
+          "id": "c6:series1:2",
+          "value": 84.39,
+          "sourceUrl": "https://www.factset.com/earningsinsight",
+          "status": "present"
+        },
+        {
+          "id": "c6:series1:3",
+          "value": 101.91,
+          "sourceUrl": "https://www.factset.com/earningsinsight",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "id": "c7",
+      "titleHtml": "<span class=\"num\">07</span> 剔除半导体之后，科技板块的盈利增速砍掉六成",
+      "sourceHtml": "来源：FactSet Earnings Insight，2026 年 9 月 18 日，第 9–10 页（已回原文逐句核对）",
+      "dataDates": [
+        {
+          "stated": "2026 年 9 月 18 日",
+          "iso": "2026-09-18",
+          "where": "source"
+        },
+        {
+          "stated": "9 月 18 日",
+          "iso": "2026-09-18",
+          "where": "source",
+          "yearInferredFrom": "coverage"
+        }
+      ],
+      "stats": [
+        {
+          "k": "标普 Q3 预期增速",
+          "v": "28.9%",
+          "tone": "up"
+        },
+        {
+          "k": "6/30 时的预期",
+          "v": "26.7%",
+          "tone": ""
+        },
+        {
+          "k": "远期 12 月 P/E",
+          "v": "19.1",
+          "tone": "acc"
+        }
+      ],
+      "chart": {
+        "id": "c7",
+        "type": "bar",
+        "labels": [
+          [
+            "信息技术",
+            "账面"
+          ],
+          [
+            "信息技术",
+            "剔除半导体"
+          ],
+          [
+            "通信服务",
+            "账面"
+          ],
+          [
+            "通信服务",
+            "剔除两家"
+          ]
+        ],
+        "datasets": [
+          {
+            "data": [
+              63.3,
+              24.2,
+              51,
+              11.8
+            ],
+            "backgroundColor": [
+              "#2b7cd3",
+              "#c3d4e8",
+              "#1a8f47",
+              "#bcd6c4"
+            ],
+            "borderRadius": 3
+          }
+        ],
+        "legend": false,
+        "tooltipFormatter": "q3YoyPlus",
+        "tickFormatter": "pct",
+        "y": {
+          "beginAtZero": true,
+          "max": 72
+        },
+        "sourceUrl": "https://www.factset.com/earningsinsight",
+        "sourceStatus": "present"
+      },
+      "primary": {
+        "href": "https://www.factset.com/earningsinsight",
+        "target": "_blank",
+        "rel": "noopener",
+        "html": "查看原始图表 / 数据来源<span class=\"who\">FactSet · Earnings Insight 9/18 版 PDF 全文</span><span class=\"arw\">↗</span>"
+      },
+      "citeHtml": "其他出处：\n      <a href=\"https://insight.factset.com/sp-500-earnings-season-preview-q2-2026\" target=\"_blank\" rel=\"noopener\">FactSet Insight · Q2 季前展望</a>\n      <a href=\"https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_092625.pdf\" target=\"_blank\" rel=\"noopener\">FactSet · Earnings Insight 往期 PDF</a>\n      <a href=\"https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-18-2026\" target=\"_blank\" rel=\"noopener\">TheStreet · 加息周收盘复盘</a>\n    ",
+      "cites": [
+        {
+          "href": "https://insight.factset.com/sp-500-earnings-season-preview-q2-2026",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "FactSet Insight · Q2 季前展望"
+        },
+        {
+          "href": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_092625.pdf",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "FactSet · Earnings Insight 往期 PDF"
+        },
+        {
+          "href": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-18-2026",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "TheStreet · 加息周收盘复盘"
+        }
+      ],
+      "takeHtml": "<span class=\"lbl\">核心观点</span>FactSet 自己在报告里给了两组\"剔除后\"口径：<b>信息技术板块预期增速 63.3%，若剔除半导体及设备行业，降到 24.2%</b>；<b>通信服务板块 51.0%，若剔除 Meta 与 EchoStar 两家公司，降到 11.8%</b>。能源板块 109.6% 则几乎全部来自油价。大盘 28.9% 的增速看起来是普涨（11 个板块全部为正），但金融只有 3.4%、必需消费 2.5%、医疗 6.0%。净利润率 15.0%，低于上季的 17.0% 纪录，仍高于去年同期的 13.0%。",
+      "whyHtml": "<span class=\"lbl\">为什么重要</span><b>28.9% 是一个真实的数字，也是一个会骗人的数字。</b>它成立的前提是半导体行业 126% 的增速和 Meta 单季 6.74 美元对 1.05 美元的 EPS 跳升能持续。真正值得注意的反而是估值那一行：季度至今指数只涨 1.8%，而远期 EPS 预期涨了 8.8%，<b>于是远期 P/E 从 20.4 掉到 19.1——市场在用\"不涨\"来消化盈利上修</b>。这是本周美股表面平静（标普周跌 0.1%、纳指涨 0.7%、道指跌 1.7%）之下的真实动作：资金在向少数有现金流的公司集中，而不是在普遍加仓。",
+      "sources": [
+        {
+          "field": "primary",
+          "url": "https://www.factset.com/earningsinsight",
+          "status": "present",
+          "label": "查看原始图表 / 数据来源FactSet · Earnings Insight 9/18 版 PDF 全文↗"
+        },
+        {
+          "field": "cite",
+          "url": "https://insight.factset.com/sp-500-earnings-season-preview-q2-2026",
+          "status": "present",
+          "label": "FactSet Insight · Q2 季前展望"
+        },
+        {
+          "field": "cite",
+          "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_092625.pdf",
+          "status": "present",
+          "label": "FactSet · Earnings Insight 往期 PDF"
+        },
+        {
+          "field": "cite",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-18-2026",
+          "status": "present",
+          "label": "TheStreet · 加息周收盘复盘"
+        }
+      ],
+      "metrics": [
+        {
+          "id": "c7:series1:0",
+          "value": 63.3,
+          "sourceUrl": "https://www.factset.com/earningsinsight",
+          "status": "present"
+        },
+        {
+          "id": "c7:series1:1",
+          "value": 24.2,
+          "sourceUrl": "https://www.factset.com/earningsinsight",
+          "status": "present"
+        },
+        {
+          "id": "c7:series1:2",
+          "value": 51,
+          "sourceUrl": "https://www.factset.com/earningsinsight",
+          "status": "present"
+        },
+        {
+          "id": "c7:series1:3",
+          "value": 11.8,
+          "sourceUrl": "https://www.factset.com/earningsinsight",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "id": "c8",
+      "titleHtml": "<span class=\"num\">08</span> AI 资本开支：同一年，三种口径差出 3,000 亿",
+      "sourceHtml": "来源：CNBC 四大厂资本开支汇总 · 各家指引 · UBS 全口径测算（三种统计范围不一致，见下）",
+      "dataDates": [],
+      "stats": [
+        {
+          "k": "四大厂 2026E",
+          "v": "7,250 亿",
+          "tone": "down"
+        },
+        {
+          "k": "同比",
+          "v": "+77%",
+          "tone": "down"
+        },
+        {
+          "k": "财报会提及 AI",
+          "v": "331 场 / 67%",
+          "tone": "acc"
+        }
+      ],
+      "chart": {
+        "id": "c8",
+        "type": "bar",
+        "labels": [
+          [
+            "2025 实际",
+            "四大厂"
+          ],
+          [
+            "2026E",
+            "四大厂"
+          ],
+          [
+            "2026E",
+            "UBS 全口径"
+          ]
+        ],
+        "datasets": [
+          {
+            "data": [
+              410,
+              725,
+              1009
+            ],
+            "backgroundColor": [
+              "#c3d4e8",
+              "#d43f45",
+              "#c9930f"
+            ],
+            "borderRadius": 3
+          }
+        ],
+        "legend": false,
+        "tooltipFormatter": "usdBillions",
+        "tickFormatter": "usdB",
+        "y": {
+          "beginAtZero": true,
+          "max": 1150
+        },
+        "sourceUrl": "https://www.cnbc.com/2026/02/06/google-microsoft-meta-amazon-ai-cash.html",
+        "sourceStatus": "present"
+      },
+      "primary": {
+        "href": "https://www.cnbc.com/2026/02/06/google-microsoft-meta-amazon-ai-cash.html",
+        "target": "_blank",
+        "rel": "noopener",
+        "html": "查看原始图表 / 数据来源<span class=\"who\">CNBC · 四大厂 AI 支出与现金流汇总</span><span class=\"arw\">↗</span>"
+      },
+      "citeHtml": "其他出处：\n      <a href=\"https://www.statista.com/chart/35046/capital-expenditure-of-meta-alphabet-amazon-and-microsoft/\" target=\"_blank\" rel=\"noopener\">Statista · 四大厂资本开支图</a>\n      <a href=\"https://futurumgroup.com/insights/ai-capex-2026-the-690b-infrastructure-sprint/\" target=\"_blank\" rel=\"noopener\">Futurum · 6,900 亿口径</a>\n      <a href=\"https://know.creditsights.com/insights/tech-raising-hyperscaler-capex-2026-estimates/\" target=\"_blank\" rel=\"noopener\">CreditSights · 上调 2026 预估</a>\n    ",
+      "cites": [
+        {
+          "href": "https://www.statista.com/chart/35046/capital-expenditure-of-meta-alphabet-amazon-and-microsoft/",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "Statista · 四大厂资本开支图"
+        },
+        {
+          "href": "https://futurumgroup.com/insights/ai-capex-2026-the-690b-infrastructure-sprint/",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "Futurum · 6,900 亿口径"
+        },
+        {
+          "href": "https://know.creditsights.com/insights/tech-raising-hyperscaler-capex-2026-estimates/",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "CreditSights · 上调 2026 预估"
+        }
+      ],
+      "takeHtml": "<span class=\"lbl\">核心观点</span>三根柱子刻意用了三个统计口径：<b>四大厂（亚马逊约 2,000 亿、微软约 1,900 亿、谷歌指引 1,750–1,850 亿、Meta 指引 1,150–1,350 亿）2025 年合计 4,100 亿，2026 年 7,250 亿，同比 +77%；UBS 按更宽的\"全部超大规模厂商\"口径给出 1.009 万亿</b>，并预计 2027 年 1.447 万亿。市面上还流传 6,900 亿（Futurum）、7,500 亿（含甲骨文的前五家）、7,600 亿（Statista）等版本——<b>差异全部来自\"算谁\"和\"算不算租赁与自建电力\"，不是谁算错了。</b>另据 FactSet，二季度财报会里 331 场提及\"AI\"，占 67%，远高于五年均值 178 场、十年均值 114 场。",
+      "whyHtml": "<span class=\"lbl\">为什么重要</span>引用 AI 资本开支时，<b>先问口径再引数字</b>，否则同一年的\"共识\"能差出一个意大利的 GDP。更值得追的是折旧：7,250 亿按三到六年摊销，会在 2027–2029 年变成每年数千亿的费用，而目前分析师对 2027 年标普盈利增速的预期已经从 Q1 的 18.2% 掉到 Q2 的 1.5%——<b>第 07 图那个 28.9% 的增速，是在折旧真正压上来之前的最后几个季度。</b>FactSet 还给了一个价格侧的观察：提及 AI 的公司年内平均涨 15.7%，未提及的只涨 8.1%。",
+      "sources": [
+        {
+          "field": "primary",
+          "url": "https://www.cnbc.com/2026/02/06/google-microsoft-meta-amazon-ai-cash.html",
+          "status": "present",
+          "label": "查看原始图表 / 数据来源CNBC · 四大厂 AI 支出与现金流汇总↗"
+        },
+        {
+          "field": "cite",
+          "url": "https://www.statista.com/chart/35046/capital-expenditure-of-meta-alphabet-amazon-and-microsoft/",
+          "status": "present",
+          "label": "Statista · 四大厂资本开支图"
+        },
+        {
+          "field": "cite",
+          "url": "https://futurumgroup.com/insights/ai-capex-2026-the-690b-infrastructure-sprint/",
+          "status": "present",
+          "label": "Futurum · 6,900 亿口径"
+        },
+        {
+          "field": "cite",
+          "url": "https://know.creditsights.com/insights/tech-raising-hyperscaler-capex-2026-estimates/",
+          "status": "present",
+          "label": "CreditSights · 上调 2026 预估"
+        }
+      ],
+      "metrics": [
+        {
+          "id": "c8:series1:0",
+          "value": 410,
+          "sourceUrl": "https://www.cnbc.com/2026/02/06/google-microsoft-meta-amazon-ai-cash.html",
+          "status": "present"
+        },
+        {
+          "id": "c8:series1:1",
+          "value": 725,
+          "sourceUrl": "https://www.cnbc.com/2026/02/06/google-microsoft-meta-amazon-ai-cash.html",
+          "status": "present"
+        },
+        {
+          "id": "c8:series1:2",
+          "value": 1009,
+          "sourceUrl": "https://www.cnbc.com/2026/02/06/google-microsoft-meta-amazon-ai-cash.html",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "id": "c9",
+      "titleHtml": "<span class=\"num\">09</span> BIS：私募信贷近一半押在科技上，而一半借款人在亏钱",
+      "sourceHtml": "来源：国际清算银行《BIS Quarterly Review》2026 年 9 月 14 日，Abbassi / Aldasoro / Doerr，基于 PitchBook 2010–2025 约 1.4 万笔直接贷款（已回原文核对）",
+      "dataDates": [
+        {
+          "stated": "2026 年 9 月 14 日",
+          "iso": "2026-09-14",
+          "where": "source"
+        },
+        {
+          "stated": "9 月 14 日",
+          "iso": "2026-09-14",
+          "where": "source",
+          "yearInferredFrom": "coverage"
+        }
+      ],
+      "stats": [
+        {
+          "k": "直接贷款余额",
+          "v": "约 2.5 万亿美元",
+          "tone": ""
+        },
+        {
+          "k": "科技占比",
+          "v": "22% → 45%",
+          "tone": "down"
+        },
+        {
+          "k": "利差四分位距",
+          "v": "3.25 → 1.75 pp",
+          "tone": "gold"
+        }
+      ],
+      "chart": {
+        "id": "c9",
+        "type": "bar",
+        "labels": [
+          [
+            "科技借款人中",
+            "EBITDA 为负占比"
+          ],
+          [
+            "第一顺位",
+            "留置权占比"
+          ]
+        ],
+        "datasets": [
+          {
+            "label": "2020 年前",
+            "data": [
+              23,
+              77.6
+            ],
+            "backgroundColor": "#c3d4e8",
+            "borderRadius": 3
+          },
+          {
+            "label": "2020 年后",
+            "data": [
+              46,
+              92.2
+            ],
+            "backgroundColor": "#d43f45",
+            "borderRadius": 3
+          }
+        ],
+        "legend": true,
+        "tooltipFormatter": "datasetPct",
+        "tickFormatter": "pct",
+        "y": {
+          "beginAtZero": true,
+          "max": 100
+        },
+        "sourceUrl": "https://www.bis.org/publications/qr-202609/financing-digital-economy-role-private-credit",
+        "sourceStatus": "present"
+      },
+      "primary": {
+        "href": "https://www.bis.org/publications/qr-202609/financing-digital-economy-role-private-credit",
+        "target": "_blank",
+        "rel": "noopener",
+        "html": "查看原始图表 / 数据来源<span class=\"who\">BIS · 季报原文、Graph 1–3 与 Box A</span><span class=\"arw\">↗</span>"
+      },
+      "citeHtml": "其他出处：\n      <a href=\"https://www.bis.org/publications/qrsep26-art-abbassietal-graphunderlyingdata.xlsx\" target=\"_blank\" rel=\"noopener\">BIS · 图表底层数据（xlsx）</a>\n      <a href=\"https://www.bis.org/publications/qr-202609\" target=\"_blank\" rel=\"noopener\">BIS · 2026 年 9 月季报首页</a>\n      <a href=\"https://www.bis.org/publications/bulletin-120-financing-ai-boom-cash-flows-debt\" target=\"_blank\" rel=\"noopener\">BIS Bulletin 120 · 为 AI 热潮融资</a>\n    ",
+      "cites": [
+        {
+          "href": "https://www.bis.org/publications/qrsep26-art-abbassietal-graphunderlyingdata.xlsx",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "BIS · 图表底层数据（xlsx）"
+        },
+        {
+          "href": "https://www.bis.org/publications/qr-202609",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "BIS · 2026 年 9 月季报首页"
+        },
+        {
+          "href": "https://www.bis.org/publications/bulletin-120-financing-ai-boom-cash-flows-debt",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "BIS Bulletin 120 · 为 AI 热潮融资"
+        }
+      ],
+      "takeHtml": "<span class=\"lbl\">核心观点</span>全球直接贷款余额从 2010 年约 1,000 亿美元、2019 年 4,500 亿，膨胀到 2025 年的<b>近 2.5 万亿美元</b>；其中科技类借款从 220 亿（占 22%）→1,270 亿（28%）→<b>超过 1 万亿美元（近 45%）</b>。Box A 里的两组数字才是真正的看点：<b>科技借款人中 EBITDA 为负的比例，从 2020 年前的 23% 升到 2020 年后的 46%——翻了一倍；同期贷款利差的离散度却在收窄</b>，四分位距从 3.25 个百分点压到 1.75 个，10–90 分位区间从 6 个压到 4.25 个。放款人的对冲方式是抢占优先级：第一顺位留置权占比从 77.6% 升到 92.2%。",
+      "whyHtml": "<span class=\"lbl\">为什么重要</span>这是本期最纯粹的<b>结构性</b>图。BIS 的核心结论有两层：第一，私募信贷这几年的扩张主要由科技企业的贷款<b>需求</b>驱动，不是银行监管松紧或低利率——所以放松银行监管不会把这块业务赶回银行；第二，<b>借款人基本面在恶化的同时，定价差异在消失，说明风险可能没有被充分定价。</b>把它和第 08 图并排看：AI 资本开支的边际资金，越来越多来自一个对亏损企业放贷、且不再按资质区分利率的市场。BIS 自己的措辞很克制——\"是否构成金融稳定风险，尚无定论\"。",
+      "sources": [
+        {
+          "field": "primary",
+          "url": "https://www.bis.org/publications/qr-202609/financing-digital-economy-role-private-credit",
+          "status": "present",
+          "label": "查看原始图表 / 数据来源BIS · 季报原文、Graph 1–3 与 Box A↗"
+        },
+        {
+          "field": "cite",
+          "url": "https://www.bis.org/publications/qrsep26-art-abbassietal-graphunderlyingdata.xlsx",
+          "status": "present",
+          "label": "BIS · 图表底层数据（xlsx）"
+        },
+        {
+          "field": "cite",
+          "url": "https://www.bis.org/publications/qr-202609",
+          "status": "present",
+          "label": "BIS · 2026 年 9 月季报首页"
+        },
+        {
+          "field": "cite",
+          "url": "https://www.bis.org/publications/bulletin-120-financing-ai-boom-cash-flows-debt",
+          "status": "present",
+          "label": "BIS Bulletin 120 · 为 AI 热潮融资"
+        }
+      ],
+      "metrics": [
+        {
+          "id": "c9:2020 年前:0",
+          "value": 23,
+          "sourceUrl": "https://www.bis.org/publications/qr-202609/financing-digital-economy-role-private-credit",
+          "status": "present"
+        },
+        {
+          "id": "c9:2020 年前:1",
+          "value": 77.6,
+          "sourceUrl": "https://www.bis.org/publications/qr-202609/financing-digital-economy-role-private-credit",
+          "status": "present"
+        },
+        {
+          "id": "c9:2020 年后:0",
+          "value": 46,
+          "sourceUrl": "https://www.bis.org/publications/qr-202609/financing-digital-economy-role-private-credit",
+          "status": "present"
+        },
+        {
+          "id": "c9:2020 年后:1",
+          "value": 92.2,
+          "sourceUrl": "https://www.bis.org/publications/qr-202609/financing-digital-economy-role-private-credit",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "id": "c10",
+      "titleHtml": "<span class=\"num\">10</span> 中国：工厂在加速，商店和工地在减速",
+      "sourceHtml": "来源：国家统计局 8 月经济数据（9 月 15 日发布）· CNBC 汇总（固投与地产口径存在分歧，见下）",
+      "dataDates": [
+        {
+          "stated": "9 月 15 日",
+          "iso": "2026-09-15",
+          "where": "source",
+          "yearInferredFrom": "coverage"
+        }
+      ],
+      "stats": [
+        {
+          "k": "工业增加值同比",
+          "v": "+5.2%",
+          "tone": "up"
+        },
+        {
+          "k": "社会消费品零售",
+          "v": "+0.4%",
+          "tone": "down"
+        },
+        {
+          "k": "城镇调查失业率",
+          "v": "5.3%",
+          "tone": ""
+        }
+      ],
+      "chart": {
+        "id": "c10",
+        "type": "bar",
+        "labels": [
+          [
+            "工业增加值"
+          ],
+          [
+            "CPI"
+          ],
+          [
+            "社零"
+          ],
+          [
+            "固定资产投资",
+            "1–8 月累计"
+          ],
+          [
+            "房地产投资",
+            "1–8 月累计"
+          ]
+        ],
+        "datasets": [
+          {
+            "data": [
+              5.2,
+              0.8,
+              0.4,
+              -7.2,
+              -12.9
+            ],
+            "backgroundColor": [
+              "#1a8f47",
+              "#c3d4e8",
+              "#c3d4e8",
+              "#d43f45",
+              "#d43f45"
+            ],
+            "borderRadius": 3
+          }
+        ],
+        "legend": false,
+        "tooltipFormatter": "signedPct",
+        "tickFormatter": "pct",
+        "y": {
+          "min": -16,
+          "max": 8
+        },
+        "sourceUrl": "https://www.stats.gov.cn/english/PressRelease/",
+        "sourceStatus": "present"
+      },
+      "primary": {
+        "href": "https://www.stats.gov.cn/english/PressRelease/",
+        "target": "_blank",
+        "rel": "noopener",
+        "html": "查看原始图表 / 数据来源<span class=\"who\">国家统计局 · 月度新闻发布页</span><span class=\"arw\">↗</span>"
+      },
+      "citeHtml": "其他出处：\n      <a href=\"https://www.cnbc.com/2026/09/15/china-august-retail-sales-industrial-output-investment-exports-.html\" target=\"_blank\" rel=\"noopener\">CNBC · 8 月零售不及预期、投资加速下滑</a>\n      <a href=\"https://www.kaohooninternational.com/economics/590695\" target=\"_blank\" rel=\"noopener\">Kaohoon · 零售疲弱与当局表态</a>\n      <a href=\"https://tradingeconomics.com/united-states/currency\" target=\"_blank\" rel=\"noopener\">Trading Economics · 美元指数（外部约束参照）</a>\n    ",
+      "cites": [
+        {
+          "href": "https://www.cnbc.com/2026/09/15/china-august-retail-sales-industrial-output-investment-exports-.html",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "CNBC · 8 月零售不及预期、投资加速下滑"
+        },
+        {
+          "href": "https://www.kaohooninternational.com/economics/590695",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "Kaohoon · 零售疲弱与当局表态"
+        },
+        {
+          "href": "https://tradingeconomics.com/united-states/currency",
+          "target": "_blank",
+          "rel": "noopener",
+          "text": "Trading Economics · 美元指数（外部约束参照）"
+        }
+      ],
+      "takeHtml": "<span class=\"lbl\">核心观点</span>8 月的分化比总量更重要：<b>工业增加值同比 +5.2%，从 7 月的 4.5% 加速并超预期；而社会消费品零售只有 +0.4%，低于 7 月的 0.6%，也低于 0.8% 的预期。</b>1–8 月固定资产投资累计同比 <span style=\"white-space:nowrap\">-7.2%</span>，比 1–7 月的 <span style=\"white-space:nowrap\">-6.7%</span> 进一步恶化，拖累主要来自房地产。CPI 同比 +0.8%、核心 +1.0%，城镇调查失业率从 5.2% 升至 5.3%。<b>口径提示：房地产投资本月有 <span style=\"white-space:nowrap\">-12.9%</span>（1–8 月累计）与 <span style=\"white-space:nowrap\">-19.9%</span>（开发投资单月口径）两种引用，本图取前者，差异请以统计局原表为准。</b>",
+      "whyHtml": "<span class=\"lbl\">为什么重要</span>把它放在这份以\"全球同步加息\"开头的看板最后，是因为它提供了唯一的反向样本：<b>当世界其他地方在对付 3–4% 的通胀时，中国的核心 CPI 是 1.0%。</b>工业强、零售弱、投资负增长的组合，意味着产出在往外走——这会以出口价格的形式，成为全球通胀的一个抵消项，同时也是贸易摩擦的持续来源。区分周期与结构：<b>零售 0.4% 是周期性的（收入预期），固投 <span style=\"white-space:nowrap\">-7.2%</span> 是结构性的（地产与地方财政的资产负债表调整），后者不会因为一两轮刺激而反转。</b>",
+      "sources": [
+        {
+          "field": "primary",
+          "url": "https://www.stats.gov.cn/english/PressRelease/",
+          "status": "present",
+          "label": "查看原始图表 / 数据来源国家统计局 · 月度新闻发布页↗"
+        },
+        {
+          "field": "cite",
+          "url": "https://www.cnbc.com/2026/09/15/china-august-retail-sales-industrial-output-investment-exports-.html",
+          "status": "present",
+          "label": "CNBC · 8 月零售不及预期、投资加速下滑"
+        },
+        {
+          "field": "cite",
+          "url": "https://www.kaohooninternational.com/economics/590695",
+          "status": "present",
+          "label": "Kaohoon · 零售疲弱与当局表态"
+        },
+        {
+          "field": "cite",
+          "url": "https://tradingeconomics.com/united-states/currency",
+          "status": "present",
+          "label": "Trading Economics · 美元指数（外部约束参照）"
+        }
+      ],
+      "metrics": [
+        {
+          "id": "c10:series1:0",
+          "value": 5.2,
+          "sourceUrl": "https://www.stats.gov.cn/english/PressRelease/",
+          "status": "present"
+        },
+        {
+          "id": "c10:series1:1",
+          "value": 0.8,
+          "sourceUrl": "https://www.stats.gov.cn/english/PressRelease/",
+          "status": "present"
+        },
+        {
+          "id": "c10:series1:2",
+          "value": 0.4,
+          "sourceUrl": "https://www.stats.gov.cn/english/PressRelease/",
+          "status": "present"
+        },
+        {
+          "id": "c10:series1:3",
+          "value": -7.2,
+          "sourceUrl": "https://www.stats.gov.cn/english/PressRelease/",
+          "status": "present"
+        },
+        {
+          "id": "c10:series1:4",
+          "value": -12.9,
+          "sourceUrl": "https://www.stats.gov.cn/english/PressRelease/",
+          "status": "present"
+        }
+      ]
+    }
+  ],
+  "closing": {
+    "title": "十图串起来的一句话",
+    "html": "本周全球央行同步转向紧缩，但触发它的通胀来自一条被封锁的海峡——于是市场给出了一个内部自洽却不太舒服的答案：<b>短端跟着政策走，长端赌紧缩会奏效（第 04 图）；股市不靠估值扩张而靠少数半导体公司的盈利硬撑（第 07 图）；这些公司的资本开支，越来越依赖一个对亏损企业放贷、且不再按资质定价的私募信贷市场（第 09 图）。</b>三条线里任何一条断掉——油价失控、半导体增速回归、或私募信贷开始计提——都会让另外两条重新定价。而 CBO 那张 4.1% 的预测表提醒我们：在这一切之下，还有一个每年 1.9 万亿、需要在 5% 而非 4% 的利率上滚动的赤字。"
+  },
+  "footer": {
+    "heading": "本期资料来源汇总",
+    "links": [
+      {
+        "href": "https://www.federalreserve.gov/releases/h15/",
+        "target": "_blank",
+        "rel": "noopener",
+        "text": "美联储 · H.15 每日利率（9/18 发布）",
+        "status": "present"
+      },
+      {
+        "href": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "target": "_blank",
+        "rel": "noopener",
+        "text": "美联储 · FOMC 会议与声明",
+        "status": "present"
+      },
+      {
+        "href": "https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260617.pdf",
+        "target": "_blank",
+        "rel": "noopener",
+        "text": "美联储 · 6 月 SEP 原表（点阵图对比基准）",
+        "status": "present"
+      },
+      {
+        "href": "https://www.bls.gov/news.release/cpi.nr0.htm",
+        "target": "_blank",
+        "rel": "noopener",
+        "text": "BLS · 8 月 CPI 新闻稿",
+        "status": "present"
+      },
+      {
+        "href": "https://www.bls.gov/news.release/empsit.nr0.htm",
+        "target": "_blank",
+        "rel": "noopener",
+        "text": "BLS · 8 月就业报告",
+        "status": "present"
+      },
+      {
+        "href": "https://www.cbo.gov/publication/61882",
+        "target": "_blank",
+        "rel": "noopener",
+        "text": "CBO · 2026–2036 预算与经济展望",
+        "status": "present"
+      },
+      {
+        "href": "https://www.factset.com/earningsinsight",
+        "target": "_blank",
+        "rel": "noopener",
+        "text": "FactSet · Earnings Insight（9/18）",
+        "status": "present"
+      },
+      {
+        "href": "https://www.bis.org/publications/qr-202609",
+        "target": "_blank",
+        "rel": "noopener",
+        "text": "BIS · 2026 年 9 月季报",
+        "status": "present"
+      },
+      {
+        "href": "https://www.bis.org/publications/qr-202609/financing-digital-economy-role-private-credit",
+        "target": "_blank",
+        "rel": "noopener",
+        "text": "BIS · 私募信贷与数字经济",
+        "status": "present"
+      },
+      {
+        "href": "https://www.stats.gov.cn/english/PressRelease/",
+        "target": "_blank",
+        "rel": "noopener",
+        "text": "国家统计局 · 月度发布",
+        "status": "present"
+      },
+      {
+        "href": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
+        "target": "_blank",
+        "rel": "noopener",
+        "text": "CNBC · 9 月 FOMC 加息",
+        "status": "present"
+      },
+      {
+        "href": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
+        "target": "_blank",
+        "rel": "noopener",
+        "text": "CNBC · 8 月 CPI",
+        "status": "present"
+      },
+      {
+        "href": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html",
+        "target": "_blank",
+        "rel": "noopener",
+        "text": "CNBC · 8 月非农",
+        "status": "present"
+      },
+      {
+        "href": "https://www.cnbc.com/2026/09/15/china-august-retail-sales-industrial-output-investment-exports-.html",
+        "target": "_blank",
+        "rel": "noopener",
+        "text": "CNBC · 中国 8 月数据",
+        "status": "present"
+      },
+      {
+        "href": "https://www.cnbc.com/2026/09/09/oil-prices-today-wti-brent-us-iran-hormuz-attacks.html",
+        "target": "_blank",
+        "rel": "noopener",
+        "text": "CNBC · 布伦特破百",
+        "status": "present"
+      },
+      {
+        "href": "https://www.cnbc.com/2026/02/06/google-microsoft-meta-amazon-ai-cash.html",
+        "target": "_blank",
+        "rel": "noopener",
+        "text": "CNBC · 四大厂 AI 支出",
+        "status": "present"
+      },
+      {
+        "href": "https://www.euronews.com/business/2026/09/17/bank-of-england-holds-rates-at-375-in-6-3-split-vote-as-inflation-hits-five-month-high",
+        "target": "_blank",
+        "rel": "noopener",
+        "text": "Euronews · 英格兰银行 6–3",
+        "status": "present"
+      },
+      {
+        "href": "https://www.fxstreet.com/analysis/bank-of-japan-hikes-and-bank-of-england-on-hold-202609180552",
+        "target": "_blank",
+        "rel": "noopener",
+        "text": "FXStreet · 日本银行加息",
+        "status": "present"
+      },
+      {
+        "href": "https://kpmg.com/us/en/articles/2026/september-2026-fomc-meeting.html",
+        "target": "_blank",
+        "rel": "noopener",
+        "text": "KPMG · 9 月 FOMC 纪要解读",
+        "status": "present"
+      },
+      {
+        "href": "https://www.raisin.com/en-us/news/fed-decision-dot-plot-breakdown-september-2026/",
+        "target": "_blank",
+        "rel": "noopener",
+        "text": "Raisin · 9 月点阵图拆解",
+        "status": "present"
+      },
+      {
+        "href": "https://tradingeconomics.com/commodity/brent-crude-oil",
+        "target": "_blank",
+        "rel": "noopener",
+        "text": "Trading Economics · 布伦特原油",
+        "status": "present"
+      },
+      {
+        "href": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-18-2026",
+        "target": "_blank",
+        "rel": "noopener",
+        "text": "TheStreet · 9/18 收盘复盘",
+        "status": "present"
+      },
+      {
+        "href": "https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz",
+        "target": "_blank",
+        "rel": "noopener",
+        "text": "Al Jazeera · 霍尔木兹局势",
+        "status": "present"
+      },
+      {
+        "href": "https://www.statista.com/chart/35046/capital-expenditure-of-meta-alphabet-amazon-and-microsoft/",
+        "target": "_blank",
+        "rel": "noopener",
+        "text": "Statista · 四大厂资本开支",
+        "status": "present"
+      }
+    ],
+    "disclaimerHtml": "\n    本看板由 AI 于 2026 年 9 月 21 日生成，覆盖 9 月 14 日至 9 月 20 日的公开报道与机构数据。图表仅使用检索中确实出现过的数据点绘制，未做插值或推算；若某项指标只检索到 2–4 个观测，即只绘制 2–4 根柱子。\n    本期已对三组关键数据回原文逐句核对：<b>美联储 H.15（9 月 18 日发布，第 04 图整条曲线均为原表数值）、FactSet Earnings Insight 9 月 18 日版 PDF（第 07、08 图的剔除口径与油价口径）、BIS 2026 年 9 月季报私募信贷专文（第 09 图 Box A 全部数字）。</b>\n    存在口径分歧或未能回一手核对的地方已在正文标注，包括：AI 资本开支 2026 年合计（6,900 亿 / 7,250 亿 / 7,500 亿 / 7,600 亿 / 1.009 万亿，取决于统计范围）；中国房地产投资（<span style=\"white-space:nowrap\">-12.9%</span> 与 <span style=\"white-space:nowrap\">-19.9%</span> 两种引用）；欧洲央行 9 月 10 日决议与日本银行 9 月 18 日决议（依据媒体报道，以官方公告为准）；9 月点阵图中位数（依据媒体对 SEP 的转述，2027 年 4.1%、2028 年 3.9%、2029 年 3.6%，未取得官方 PDF）；布伦特周内高低点（来自行情商转述）。\n    本材料仅供研究参考，不构成投资建议。\n  "
+  },
+  "revisions": []
+}

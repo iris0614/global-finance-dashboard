@@ -1,0 +1,103 @@
+name: Update edition
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "期次日期 YYYY-MM-DD（可空，空则用当天 UTC）"
+        required: false
+        type: string
+      force:
+        description: "跳过 config/update.json 的周期检查"
+        required: false
+        type: boolean
+        default: false
+  schedule:
+    - cron: "15 6 * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    outputs:
+      promoted: ${{ steps.result.outputs.promoted }}
+      commit_sha: ${{ steps.commit.outputs.commit_sha }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Run update script
+        id: result
+        env:
+          ANALYSIS_API_KEY: ${{ secrets.ANALYSIS_API_KEY }}
+          ANALYSIS_API_URL: ${{ vars.ANALYSIS_API_URL || secrets.ANALYSIS_API_URL }}
+        run: |
+          set +e
+          args=()
+          if [ -n "${{ inputs.date }}" ]; then
+            args+=(--date "${{ inputs.date }}")
+            if [ -f "incoming/${{ inputs.date }}.json" ]; then
+              args+=(--content "incoming/${{ inputs.date }}.json")
+            fi
+          fi
+          if [ "${{ inputs.force }}" = "true" ]; then
+            args+=(--force)
+          fi
+          python3 scripts/new_edition.py "${args[@]}" > /tmp/update-out.txt 2> /tmp/update-err.txt
+          code=$?
+          cat /tmp/update-err.txt
+          cat /tmp/update-out.txt
+          if grep -q '^STATUS=promoted$' /tmp/update-out.txt; then
+            echo "promoted=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "promoted=false" >> "$GITHUB_OUTPUT"
+          fi
+          if [ "$code" -ne 0 ] || grep -q '^STATUS=error$' /tmp/update-out.txt; then
+            exit 1
+          fi
+          exit 0
+      - name: Commit promoted edition
+        id: commit
+        if: steps.result.outputs.promoted == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/index.json data/editions data/drafts
+          if git diff --cached --quiet; then
+            echo "commit_sha=" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          date_line=$(grep '^DATE=' /tmp/update-out.txt | head -n 1 | cut -d= -f2-)
+          git commit -m "Publish edition ${date_line}"
+          git push
+          git rev-parse HEAD > /tmp/commit-sha
+          echo "commit_sha=$(cat /tmp/commit-sha)" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: update
+    if: needs.update.outputs.promoted == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout promoted commit
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.update.outputs.commit_sha || github.sha }}
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
