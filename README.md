@@ -4,6 +4,12 @@
 
 图表使用 Chart.js 4.4.1。样式与第一期原文保持原样，日期选择是后来加上的。
 
+浏览器打开：
+
+- 本地：http://127.0.0.1:43123/
+- 线上页面：https://iris0614.github.io/global-finance-dashboard/
+- 某一期：https://iris0614.github.io/global-finance-dashboard/?date=2026-09-21
+
 ## 本地运行
 
 已有服务在 43123 时直接打开即可。否则在仓库根目录：
@@ -13,6 +19,9 @@ python3 -m http.server 43123 --bind 0.0.0.0
 ```
 
 浏览器打开 http://127.0.0.1:43123/
+
+- 线上页面：https://iris0614.github.io/global-finance-dashboard/
+- 某一期：https://iris0614.github.io/global-finance-dashboard/?date=2026-09-21
 
 不带 `?date=` 时显示 `data/index.json` 里的 `latest`。选择日期后地址变为 `?date=YYYY-MM-DD`，刷新和前进后退都认这个参数。资源路径都是相对的，挂在 `https://<user>.github.io/<repo>/` 下也能载入。
 
