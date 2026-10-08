@@ -23,6 +23,7 @@ const tooltipFormatters={
 };
 const tickFormatters={
   pct(v){return v+'%';},
+  pctTwoDecimals(v){return Number(v).toFixed(2)+'%';},
   thousandsK(v){return v+'k';},
   usd(v){return '$'+v;},
   usdB(v){return '$'+v+'B';}
@@ -40,7 +41,8 @@ function destroyCharts(){
 function createChart(canvas, spec){
   const existing=typeof Chart.getChart==='function'?Chart.getChart(canvas):null;
   if(existing) existing.destroy();
-  const y={grid:{color:C.line},border:{display:false},ticks:{color:C.muted,callback:tickFormatters[spec.tickFormatter]}};
+  const tickFormatter=spec.id==='c5'?'pctTwoDecimals':spec.tickFormatter;
+  const y={grid:{color:C.line},border:{display:false},ticks:{color:C.muted,callback:tickFormatters[tickFormatter]}};
   if(spec.y&&spec.y.beginAtZero) y.beginAtZero=true;
   if(spec.y&&spec.y.min!=null) y.min=spec.y.min;
   if(spec.y&&spec.y.max!=null) y.max=spec.y.max;
