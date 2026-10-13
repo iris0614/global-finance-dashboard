@@ -143,14 +143,11 @@
 
   function guideCard(){
     const ui=UI[lang];
+    const guide=doc.guide&&doc.guide[lang];
+    if(!guide||guide.status==='missing') return null;
     const card=document.createElement('div');
     card.className='card';
     card.appendChild(sectionTitle(ui.guide));
-    const guide=doc.guide&&doc.guide[lang];
-    if(!guide||guide.status==='missing'){
-      card.appendChild(missing(ui.missingGuide));
-      return card;
-    }
     if(guide.kicker) card.appendChild(p('src',esc(guide.kicker)));
     const background=guide.background||[];
     background.forEach(function(text,i){
@@ -164,12 +161,13 @@
     return card;
   }
 
-  function chapterCard(chapter){
+  function chapterCard(chapter,index){
     const ui=UI[lang];
     const card=document.createElement('section');
     card.className='card';
     const heading=field(chapter.title,lang);
     if(heading) card.appendChild(sectionTitle(heading));
+    else if(index===0) card.appendChild(sectionTitle(ui.guide));
     else card.appendChild(missing(ui.missingTitle));
     (chapter.paragraphs||[]).forEach(function(para){
       const text=field(para,lang);
@@ -207,9 +205,11 @@
     if(!doc) return;
     noticeEl.hidden=true;
     noticeEl.textContent='';
-    stackEl.replaceChildren(guideCard());
-    (doc.chapters||[]).forEach(function(chapter){
-      stackEl.appendChild(chapterCard(chapter));
+    stackEl.replaceChildren();
+    const guide=guideCard();
+    if(guide) stackEl.appendChild(guide);
+    (doc.chapters||[]).forEach(function(chapter,index){
+      stackEl.appendChild(chapterCard(chapter,index));
     });
     stackEl.appendChild(notesCard());
   }
