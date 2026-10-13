@@ -1,0 +1,723 @@
+{
+  "id": "in-our-time",
+  "speaker": {
+    "zh": "凯文·沃什",
+    "en": "Kevin Warsh"
+  },
+  "role": {
+    "zh": "美联储主席",
+    "en": "Chairman"
+  },
+  "date": "2026-08-28",
+  "dateLabel": {
+    "zh": "时间：2026年8月28日（当地时间周五，北京时间8月28日晚10时）",
+    "en": null,
+    "enStatus": "missing"
+  },
+  "title": {
+    "zh": "我们所处的时代",
+    "en": "In Our Time"
+  },
+  "occasion": {
+    "zh": "堪萨斯城联邦储备银行主办的2026年杰克逊霍尔经济政策研讨会，主题为“金融创新：对支付与政策的影响”，美国怀俄明州杰克逊霍尔",
+    "en": "Financial Innovation: Implications for Payments and Policy"
+  },
+  "source": {
+    "url": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm",
+    "label": {
+      "zh": "美联储官网",
+      "en": null,
+      "enStatus": "missing"
+    }
+  },
+  "guide": {
+    "zh": {
+      "status": "present",
+      "kicker": "沃什讲话：我们所处的时代",
+      "background": [
+        "当地时间8月28日，怀俄明州杰克逊霍尔，提顿山脉的雪峰之下，全球央行年会的讲台上，站着一位上任刚满100天的美联储主席：凯文·沃什。",
+        "这个场合本身就分量极重。1981年以来，杰克逊霍尔就是美联储政策转向的\"发令枪\"：伯南克在这里预告过量化宽松，鲍威尔在这里重写过政策框架。而沃什，是今年5月才以参议院54比45的史上最小优势确认的新主席，是十几年来第一位公开宣称\"货币很重要\"的美联储掌门人，也是特朗普亲自属意、如今却让白宫最头疼的人选，因为他不肯降息。",
+        "他开口时的市场背景同样紧绷。",
+        "30年期美债收益率徘徊在十九年高位，联邦债务首次突破40万亿美元，财政部刚刚紧急加倍回购长债，效果却只维持了不到24小时。另一边，AI资本开支如火如荼，仅两大头部实验室的年化token销售额就突破1000亿美元。而通胀，已经在2%目标的上方停留了整整65个月。"
+      ],
+      "corePoints": [
+        "沃什给出的核心结论干脆利落：",
+        "通胀仍是首要敌人，美联储\"还有工作要做\"。",
+        "他的逻辑链条清晰可辨：经济韧性超预期，企业资本开支以9%的速度扩张、企业利润一年增长超过20%、4.1%的失业率与充分就业一致；信贷市场毫无紧缩迹象；而通胀回落\"进展有限\"，PCE篮子中54%的分项涨幅仍高于3%。经济扛得住，通胀没驯服，加息的门便重新打开。话音落地，市场对9月加息的定价从约四成跳升至接近六成，2年期美债收益率创下近一个月新高。",
+        "更深一层看，这篇16页的发言稿是沃什的\"施政纲领\"。",
+        "他宣布给前瞻指引\"办退休\"，痛斥央行与市场互相照镜子形成的\"镜厅效应\"，主张市场少猜美联储、多看数据，并立下七条政策原则，重申2%的通胀目标是\"刚性的、固定的目标\"，甚至以机构之名，把65个月高通胀的责任揽回央行自己身上。",
+        "几句值得摘抄的原话：",
+        "\"我们必须确信，基础通胀正在清晰地、以足够快的速度向我们的目标迈进。否则，我们就还有工作要做。\"",
+        "\"65个月持续高通胀的责任，完全在央行身上。这本就该由央行承担。\"",
+        "\"你们可以叫它提纲，也可以叫它徒步路线图，只是别叫它前瞻指引。\"",
+        "\"我今天站在这里，坚守的是一种纪律，而不是某个具体决定。\"",
+        "最后他借用首位突破音障的试飞员查克·耶格尔的话收尾：",
+        "\"关键时刻，要么有理由，要么有结果。\"",
+        "这是一篇近年少见的、兼具央行治理宣言与经济现场评估的讲话，每个判断都有数据落点，每句狠话都有出处。",
+        "以下全文，中英对照，值得逐字读完。"
+      ],
+      "marketReaction": "市场反应：讲话后交易员将9月15至16日议息会议的加息概率定价至接近50%（周五早些时候约40%）；2年期美债收益率攀升至近一个月新高；美股一度跳水回吐涨幅，随后收复失地转涨。"
+    },
+    "en": {
+      "status": "missing"
+    }
+  },
+  "chapters": [
+    {
+      "title": {
+        "zh": "开场白",
+        "en": null,
+        "enStatus": "missing"
+      },
+      "paragraphs": [
+        {
+          "en": "Thank you. It's great to be here again and to see so many familiar faces. I've been looking forward to this weekend—what better place to mark my 100th day as Chairman?",
+          "zh": "谢谢。很高兴再次来到这里，见到这么多熟悉的面孔。我一直期待着这个周末。还有什么地方比这里更适合纪念我出任主席的第100天呢？",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "For the fine hospitality, everyone here is in debt to President Jeff Schmid and his colleagues at the Federal Reserve Bank of Kansas City. Jeff, our thanks to you all.",
+          "zh": "在座的各位都要感谢堪萨斯城联邦储备银行行长杰夫·施密德（Jeff Schmid）及其同事们的盛情款待。杰夫，我们大家谢谢你。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Jeff and the other planners have some recreation options lined up for later today. And I'd advise you to be very careful with your choices.",
+          "zh": "杰夫和其他会务组织者为大家安排了今天稍后的休闲活动。我要提醒各位，选择时务必谨慎。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "As I learned years ago, you can take two different kinds of hikes on the trails around Jackson Hole. I can sum up my hikes with former Vice Chairman Don Kohn in two words: I survived. These steely marathon death marches revealed a side of Don I wasn't ready for.",
+          "zh": "多年前我就领教过，在杰克逊霍尔周围的山径上徒步，有两种截然不同的类型。我和前副主席唐纳德·科恩（Don Kohn）的徒步经历，用两个词就能概括：我活下来了。那种钢铁意志般的马拉松式\"死亡行军\"，让我见识了科恩毫无心理准备的一面。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "There's another kind of hike—one I associate with Chairman Ben Bernanke, my old colleague. With Ben, it's a much more leisurely pace, an easy stroll along the wandering trails at the Rockefeller Preserve.",
+          "zh": "还有一种徒步，让我想起我的老同事本·伯南克（Ben Bernanke）主席。和本在一起，节奏要悠闲得多，就是沿着洛克菲勒保护区蜿蜒的小径轻松漫步。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "So before setting out, do a wellness check and ask yourself: \"Is this a Kohn day or a Bernanke day?\"",
+          "zh": "所以出发前，请先做个自我健康评估，问问自己：\"今天适合科恩式徒步，还是伯南克式徒步？\"",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "The best thing about this gathering is that it helps us all clear our minds and think straight about our world and our time. For me, it feels like the right place, and the right audience, for a real engagement with the ideas that matter most.",
+          "zh": "这场聚会最大的好处，是帮助我们所有人理清思绪，清醒地思考我们所处的世界和时代。对我而言，面对最重要的那些思想进行一场真正的交流，这里是合适的地点，各位是合适的听众。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Innovation is the conference theme, and I believe that the public and the markets—in their collective wisdom—understand that innovations in the conduct of policy at the Fed will help deliver price stability alongside full employment.",
+          "zh": "创新是本届会议的主题。我相信，公众和市场以其集体智慧能够理解，美联储在政策执行方式上的创新，将有助于在实现充分就业的同时交付物价稳定。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Here is a quick overview of what I'll cover in my remarks this morning. You can call it an outline . . . you can call it a trail map . . . just don't call it forward guidance.",
+          "zh": "下面简要介绍一下我今天上午讲话的内容。你们可以叫它提纲，也可以叫它徒步路线图，只是别叫它\"前瞻指引\"。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "First, I'll touch on a few of the longer-term questions we're asking at the Fed about the latest general-purpose technology, artificial intelligence (AI), and where it might take the economy.",
+          "zh": "首先，我会谈几个美联储正在思考的长期问题，涉及最新的通用技术，即人工智能（AI），以及它可能把经济带向何方。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Then I'll reflect a bit on the practice of forward guidance and the interaction between the central bank and financial markets.",
+          "zh": "然后，我会对前瞻指引这一做法，以及央行与金融市场之间的互动关系，作一些思考。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Next, I'll present some of the key principles that I believe should guide the conduct of monetary policy.",
+          "zh": "接着，我会提出几条我认为应当指导货币政策执行的核心原则。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "And, finally, I'll give you my assessment of the economy.",
+          "zh": "最后，我会给出我对经济形势的评估。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "一、为未来的政策关口预作准备",
+        "en": "Preparing for Future Policy Conjunctures",
+        "enStatus": "present"
+      },
+      "paragraphs": [
+        {
+          "en": "With the unchanging picture of the Tetons as our backdrop, we are here to survey an economic landscape that is anything but static.",
+          "zh": "我们以提顿山脉亘古不变的景致为背景，在这里审视一幅绝不静止的经济图景。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "It wasn't so long ago—in the run-up to the crisis of 2008 and over the decade that followed—when economists and policymakers were speaking of secular stagnation and a global saving glut.[1] It was a widely held view that an excess of capital would sit on the sidelines for a long, long time, because there just wouldn't be enough compelling investment opportunities. All the good stuff had been invented. So growth would be low and slow.[2]",
+          "zh": "就在不久之前，也就是2008年危机前夕及其后的十年间，经济学家和政策制定者还在谈论长期停滞（secular stagnation）和全球储蓄过剩。当时普遍的观点是，过剩资本将在场边闲置很久很久，因为根本没有足够有吸引力的投资机会。好东西都已经被发明完了，所以增长将长期低迷。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Well, times sure have changed. We've come to a hinge point in history.[3]",
+          "zh": "时过境迁。我们已经来到历史的转折点。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "To cite the clearest example, progress in artificial intelligence—the 80-year-old name for the newest technology—has been faster even than its evangelists predicted a couple of years ago.",
+          "zh": "最清楚的例子是，人工智能这项拥有80年历史名词的最新技术，其进展速度甚至超过了几年前布道者们的预言。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "The potential for substantially higher growth is on the rise. Ever-expanding pools of capital are pouring into AI-related infrastructure of all sorts. A kind of hyper–Moore's law seems to be playing out. Scaling laws, too, are changing both the method and speed of innovation.[4]",
+          "zh": "实现大幅更高增长的潜力正在上升。不断膨胀的资本池正涌入各类AI相关基础设施。某种超级摩尔定律似乎正在上演。规模定律（scaling laws）也在同时改变创新的方式和速度。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Capital and labor have combined to create the large language models at the heart of AI. Users buy tokens to gain access to the models. Reports put annualized token sales for the two leading labs alone at more than $100 billion—an increase of 500-plus percent from a year ago.",
+          "zh": "资本与劳动相结合，创造了处于AI核心的大语言模型。用户购买token以获取模型的使用权。有报告称，仅两大领先实验室的token销售额年化后就超过1000亿美元，比一年前增长了500%以上。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "The Fed watches all of this attentively. We recognize that AI is a new variable—potentially a new factor of production—that will have consequences for both the economy and the conduct of monetary policy. It opens some major lines of inquiry:",
+          "zh": "美联储正密切关注这一切。我们认识到，AI是一个新变量，甚至可能是一种新的生产要素，它将对经济和货币政策的执行都产生影响。它开启了几条重要的研究线索：",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Will the application of AI cause a significant, sustained rise in productivity across the economy? And if so, when?",
+          "zh": "AI的应用是否会在整个经济中引发显著而持续的生产率提升？如果会，何时发生？",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Will token usage be complementary or competitive to labor? Will the next generation of AI models demand even greater capital intensity, or will the models themselves help devise a capital-light solution?",
+          "zh": "token的使用对劳动是互补关系还是竞争关系？下一代AI模型是否需要更高的资本密集度，还是模型本身会帮助设计出轻资本的解决方案？",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Among the other yet unknowns is the resulting market structure. It's not obvious where the returns on capital will land or on what timescale. Early on, how much of the surplus goes to owners of scarce assets—AI labs, chipmakers, energy producers, and cloud providers? Over time, how much of that value accrues to businesses and consumers? What are the broad implications for workers and for the employment side of the Fed's mandate?",
+          "zh": "另一个未知项是由此形成的市场结构。资本回报将落在何处、以什么时间尺度实现，目前并不明朗。在早期，多少盈余会流向稀缺资产的所有者，即AI实验室、芯片制造商、能源生产商和云服务商？随着时间推移，这些价值又有多少会归于企业和消费者？对劳动者、对美联储使命中的就业一侧，又有哪些广泛影响？",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Likewise, we don't yet know the equilibrium price of the tokens. Might there be a heterogeneity of tokens, such that growing sums will be paid for access to the best models at the frontier? Will token prices for older models fall to the level of their marginal cost?",
+          "zh": "同样，我们还不知道token的均衡价格。token是否会出现异质性，使得人们为使用最前沿的最佳模型支付越来越高的价格？旧模型的token价格是否会跌至其边际成本的水平？",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "We will be thinking through these matters with the help of a task force on productivity and jobs. My early check-ins with the leaders of that task force, and the four others, have been encouraging.",
+          "zh": "我们将借助一个关于生产率与就业的工作组来研究这些问题。我与该工作组及其他四个工作组负责人的前期沟通，令人鼓舞。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "To be clear, though, their recommendations will come later and have no bearing on decisions we make in the current policy conjuncture. But I believe that for future policy challenges, this intellectual investment today will leave us far better prepared.",
+          "zh": "不过要说明，他们的建议要以后才会提出，与我们在当前政策关口所做的决定无关。但我相信，面对未来的政策挑战，今天这笔智力投资将让我们准备得充分得多。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "二、前瞻指引及其替代品",
+        "en": "Forward Guidance and Its Stand-ins",
+        "enStatus": "present"
+      },
+      "paragraphs": [
+        {
+          "en": "As our task forces go about their work, I am not waiting to introduce innovations at the Fed to make us fit for purpose. To highlight one example, I have set out to change the form and function of the Fed Chairman's so-called forward guidance. You might know about my long-time discomfort with early pronouncements of future policy decisions. I much prefer another path . . . and will make the case for it.",
+          "zh": "在各工作组开展工作的同时，我并没有坐等，而是已经在美联储引入创新，让我们胜任使命。举一个重要例子，我已着手改变美联储主席所谓\"前瞻指引\"的形式与功能。各位可能知道，我对提前宣示未来政策决定长期感到不安。我更倾向于另一条路，下面我会阐明理由。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Transparency in communications about future policy decisions is not a virtue unto itself. Communications must be in service to the Fed's paramount responsibility: getting monetary policy right.[5]",
+          "zh": "就未来政策决定进行的沟通，透明本身并非目的。沟通必须服务于美联储的最高职责，那就是把货币政策做对。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Forward guidance as a regular practice was adopted by my colleagues and me during the Global Financial Crisis.[6] It was essential at the time, and we introduced it with much fanfare. But, as with other legacies of crises past, I believe that the practice has overstayed its welcome.",
+          "zh": "前瞻指引作为一项常规做法，是我和同事们在全球金融危机期间采用的。它在当时必不可少，我们引入它时也大张旗鼓。但是，如同历次危机留下的其他遗产一样，我认为这一做法已经超出了它受欢迎的期限。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "In normal times, the role of forward guidance should be limited and circumscribed. Otherwise it risks creating ambiguity in the name of clarity. Oversharing policy deliberations and overcommitting to future decisions can lead markets, businesses, and households astray.[7] And I believe when policymakers make quasi-commitments on interest rates through the cycle, we inhibit our own freedom to make the right calls when it's time to decide.",
+          "zh": "在正常时期，前瞻指引的作用应当有限并受到约束。否则，它就有以清晰之名制造含混的风险。过度分享政策讨论内容、对未来决定过度承诺，会把市场、企业和家庭引入歧途。而且我认为，当政策制定者在整个周期中对利率作出准承诺时，我们反而束缚了自己在需要决断时作出正确判断的自由。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "To get policy right, we also need to get the relationship right between financial markets and the central bank. The Fed needs clear market signals, as unfiltered as possible . . . from market internals . . . the level and change in asset prices across sectors . . . the prices and trading volumes of Treasury securities. . . the foreign exchange value of the dollar . . . the cost and availability of credit . . . and the price of a broad set of commodities.",
+          "zh": "要把政策做对，我们还需要摆正金融市场与央行之间的关系。美联储需要清晰的市场信号，越不加过滤越好。这些信号来自市场内部结构、各行业资产价格的水平与变动、国债的价格与成交量、美元的汇率、信贷的成本与可得性，以及一揽子大宗商品的价格。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "These and other indicators should inform the Fed's near-term outlook on economic activity and inflation throughout the business cycle. They should also reveal the state of broader financial conditions . . . and the risks and uncertainties in the financial cycle.",
+          "zh": "这些以及其他指标，应当在商业周期全程中为美联储对经济活动和通胀的近期展望提供依据。它们还应当揭示整体金融环境的状态，以及金融周期中的风险与不确定性。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "At the same time, market participants themselves should be tracking real information across the economy. They should draw their own conclusions; form their own expectations of output, employment, and inflation; and stay sharply attuned to risks.",
+          "zh": "与此同时，市场参与者自己也应当追踪整个经济中的真实信息。他们应当得出自己的结论，形成自己对产出、就业和通胀的预期，并对风险保持高度警觉。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "The Fed should be humble and never naïve. The Fed plays an essential role in the economy and the markets. And our tools are powerful. We determine the path of short-term interest rates. And market participants will always try to anticipate what we will do next. But we should not indulge a regime in which market participants are looking primarily to the Fed for their next trade.",
+          "zh": "美联储应当谦逊，但绝不能天真。美联储在经济和市场中扮演着不可或缺的角色，我们的工具是强大的。我们决定短期利率的路径，市场参与者也总会试图预判我们下一步的行动。但是，我们不应纵容一种市场参与者主要靠盯着美联储来做下一笔交易的体制。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "The economic literature has long described the distorting effects: a hall-of-mirrors problem.[8] If markets rely materially on the Fed's guidance and the Fed relies on market prices, we are all more likely to be blinded to new developments . . . more likely to be caught unprepared for a turn of events . . . and more likely to commit errors in policymaking.[9]",
+          "zh": "经济学文献早就描述过这种扭曲效应，即\"镜厅\"问题。如果市场实质性地依赖美联储的指引，而美联储又依赖市场价格，那么我们所有人都更容易对新的发展视而不见，更容易在形势逆转时措手不及，也更容易在政策制定中犯错。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Perversely, market participants are unlikely to bear the biggest costs of the hall-of-mirrors problem. The most serious harm is likely to befall those without financial assets. If the Fed gets inflation wrong and judges the economy wrong, who gets the worst of it? Not the financial high-fliers. Hard-working Americans are the ones left to deal with inflation that is too high or jobs that suddenly appear less secure.",
+          "zh": "反常的是，市场参与者不太可能承担镜厅问题的最大代价。最严重的伤害很可能落在没有金融资产的人身上。如果美联储误判了通胀、误判了经济，谁的处境最糟？不是那些金融市场上的弄潮儿。被留下来应对过高通胀或突然变得不稳的工作岗位的，是辛勤工作的美国普通人。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "So, if forward guidance is ill-suited to normal times, then how about the new Fed chief commits—at the very least—to an explicit reaction function? Surely, he should tell us his interest rate path—if, say, the data were to come in hot or cold.",
+          "zh": "那么，如果前瞻指引不适用于正常时期，新任美联储主席是否至少应该承诺一个明确的政策反应函数？他总该告诉我们，如果数据偏热或偏冷，利率路径会是怎样吧。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "I wish our understanding of the economy were so precise as to provide a mechanical, tried-and-true answer—that some simple function like a Taylor rule could be rigorously relied upon. But our knowledge just doesn't extend that far—at least not yet—and the factors most relevant to the proper conduct of monetary policy change over time.",
+          "zh": "我多么希望我们对经济的理解足够精确，能够给出一个机械而可靠的答案，让泰勒规则之类的简单函数可以被严格依赖。但我们的知识还达不到那种程度，至少目前还达不到，而且与货币政策正确执行最相关的因素也在随时间变化。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Providing forecasts to illustrate the Fed's reaction function works better in theory than in practice, better in the lab than in the field. I'm not alone in noticing that forward guidance in 2021, to cite one example, might well have slowed the policy response to high inflation.[10]",
+          "zh": "用预测来演示美联储的反应函数，理论上比实践上行得通，实验室里比现实中行得通。不止我一个人注意到，仅举一例，2021年的前瞻指引很可能拖慢了对高通胀的政策反应。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "In my term as Chairman, my colleagues and I will endeavor to construct more reliable models and more robust rules to guide policy decisions. We'll do this knowing that accuracy in economic forecasting is still just an aspiration. With so much changing so fast in geopolitics, global supply chains, and technology, it's wise to be modest about what we can and cannot know.",
+          "zh": "在我的主席任期内，我和同事们将努力构建更可靠的模型和更稳健的规则来指导政策决定。我们做这件事时清楚知道，经济预测的准确性目前仍只是一种追求。地缘政治、全球供应链和技术都在飞速变化，对自己能知道什么、不能知道什么保持谦逊，才是明智的。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "In the same spirit, we should receive the full range of ideas on matters that may inform the Fed's monetary policy decisions. If the aim is optimal decisionmaking, we should not crowd out views on the economy.",
+          "zh": "本着同样的精神，对于可能为美联储货币政策决定提供参考的各类观点，我们都应当兼收并蓄。如果目标是做出最优决策，我们就不应把对经济的不同看法排挤出去。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "How, then, to chart a better path to policy? In the balance of my remarks, I will share some key principles that guide my thinking on the appropriate conduct of monetary policy . . . then offer my promised assessment of the economy.",
+          "zh": "那么，怎样才能规划出一条更好的政策路径？在讲话余下的部分，我将分享几条指导我思考货币政策恰当执行方式的核心原则，然后兑现承诺，给出我对经济的评估。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "三、核心原则",
+        "en": "Key Principles",
+        "enStatus": "present"
+      },
+      "paragraphs": [
+        {
+          "en": "Turning to principles . . .",
+          "zh": "下面谈原则。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "First, I've noticed that, in this line of work, yesterday's news has a way of getting mistaken for what is happening right now. The challenge is to know the difference. In other words, we must interrogate reality to make sure we are not setting forward-looking policy based on stale or inaccurate data. Nor should we rely on isolated data points. Trends matter most. The Fed is a decisionmaking agency. We make choices amid uncertainty, and the data upon which we draw must be as relevant, contemporaneous, accurate, and actionable as possible.[11]",
+          "zh": "第一，我注意到，干我们这一行，昨天的消息总有办法被误当成眼下正在发生的事。难就难在分清两者。换句话说，我们必须拷问现实，确保自己不是依据过时或不准确的数据在制定前瞻性的政策。我们也不应依赖孤立的数据点，趋势才最重要。美联储是一个决策机构。我们在不确定性中作出选择，我们所依据的数据必须尽可能相关、及时、准确、可操作。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Second, the Federal Reserve's actions are intended to ensure that the aggregate demand side of the economy is broadly consistent with aggregate supply. However, all we observe directly is activity. We never see, and can only infer, what's really happening on the supply side. Hence, evaluating the current and expected balance between aggregate supply and demand is imprecise.[12]",
+          "zh": "第二，美联储的行动旨在确保经济中的总需求与总供给大体相符。然而，我们能直接观察到的只有经济活动本身。供给端真正在发生什么，我们永远看不见，只能推断。因此，对总供给与总需求当前及预期平衡的评估，本质上是不精确的。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Third, there should be no misunderstanding: The Fed's price-stability objective of 2 percent, as measured by the personal consumption expenditures (PCE) price index, is a firm, fixed target. Let's be equally clear about another aspect of the objective: Price stability is not self-executing, nor is inflation necessarily mean-reverting. It is the Fed's job to deliver stable prices.",
+          "zh": "第三，不应存在任何误解：美联储以个人消费支出（PCE）价格指数衡量的2%物价稳定目标，是一个刚性的、固定的目标。这一目标的另一面也要同样说清楚：物价稳定不会自动实现，通胀也未必会自行回归均值。交付稳定的物价，是美联储的工作。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Fourth, the Fed also bears responsibility for maximum employment. Achieving both sides of our mandate over the medium term is not an either/or proposition. I do not believe that the Fed's dual mandate works at cross-purposes. After all, high inflation itself is very harmful to economic prosperity.",
+          "zh": "第四，美联储还肩负着实现最大就业的责任。在中期内实现双重使命的两侧，并非非此即彼的取舍。我不认为美联储的双重使命是相互冲突的。毕竟，高通胀本身对经济繁荣危害极大。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Fifth, short-term interest rates are the predominant tool to achieve the dual mandate. Unconventional policies to spur economic activity may suit genuine crises but should otherwise be used sparingly, if at all.",
+          "zh": "第五，短期利率是实现双重使命的主要工具。刺激经济活动的非常规政策或许适用于真正的危机，但在其他情况下应当少用，能不用就不用。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Sixth, money matters. It's not fashionable these days, but my view is that money has something important to do with monetary policy.[13] We should pay attention to money created by the central bank and money that comes from the banking and financial systems.[14] It's true that financial innovations and other factors alter the mechanics that link the monetary base, the velocity of money, and the broader economy. But that is scarcely a reason to ignore the ultimate effects of money on financial conditions and prices.",
+          "zh": "第六，货币很重要。这在当下不合潮流，但我的看法是，货币与货币政策有着重要的关联。我们应当关注央行创造的货币，也应当关注来自银行和金融体系的货币。诚然，金融创新和其他因素改变了货币基础、货币流通速度与整体经济之间的传导机制，但这绝不能成为忽视货币对金融环境和物价最终影响的理由。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Finally, a quieter Fed, more purposeful in its communications, is better able to meet its objectives. And we can be held accountable for delivering on our remit—the only true test of our credibility. To borrow a line from General Chuck Yeager, \"At the moment of truth, there are either reasons or results.\"[15]",
+          "zh": "最后，一个更安静、沟通更有目的性的美联储，更有能力实现其目标。而且我们可以因履行使命而被问责，这是对我们信誉的唯一真正检验。借用查克·耶格尔（Chuck Yeager）将军的一句话：\"关键时刻，要么有理由，要么有结果。\"",
+          "enStatus": "present",
+          "zhStatus": "present"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "四、当前经济形势",
+        "en": "The Economy Today",
+        "enStatus": "present"
+      },
+      "paragraphs": [
+        {
+          "en": "Now, given these principles, how do I read the economy today? What's really going on outside the window?[16]",
+          "zh": "那么，基于这些原则，我如何解读今天的经济？窗外真正在发生什么？",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "You may have read in the July minutes the unanimous view of the FOMC:[17] Labor markets were stable, and output was solid. But inflation remained too high. A good majority of my colleagues and I thought the wiser course was to await new information in the intermeeting period—especially given possible developments in supply chains, investment flows, and geopolitics—before deciding whether a change in interest rate policy was advisable. And we expressed our joint readiness to act as circumstances might require.",
+          "zh": "各位可能已经在7月会议纪要中读到了联邦公开市场委员会（FOMC）的一致看法：劳动力市场稳定，产出稳健，但通胀仍然过高。我和绝大多数同事都认为，更明智的做法是在两次会议之间的时期等待新的信息，特别是考虑到供应链、投资流和地缘政治可能出现的变化，然后再决定是否有必要调整利率政策。我们也共同表达了在形势需要时采取行动的准备。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "For my part, today I am impressed by the overall performance of the economy, which appears to have strengthened. One indicator of strength is how well an economy holds up to shocks. On that score, both Main Street and Wall Street have been remarkably resilient.",
+          "zh": "就我个人而言，今天经济的整体表现给我留下了深刻印象，而且似乎还在进一步增强。衡量经济强弱的一个标准，是它抵御冲击的能力。从这一点看，实体经济和华尔街都表现出了非凡的韧性。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Several observations:",
+          "zh": "以下几点观察：",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Business capital expenditures—the seed corn of future economic growth—are rising rapidly. The four-quarter change in investment in equipment and intangibles has been around 9 percent, its highest growth rate since 2021. More than half of the cap-ex growth this year can likely be ascribed to the buildout related to AI.",
+          "zh": "企业资本支出是未来经济增长的种子，目前正在快速上升。设备和无形资产投资的四个季度变动约为9%，是2021年以来的最高增速。今年的资本开支增长中，超过一半很可能可归因于AI相关的建设。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "For firms in the S&P 500, profits have grown by more than 20 percent over the past year. Profit margins are quite elevated, relative to history. Overall equity market volatility is low. We're staying keenly focused on market internals, watching performance across sectors.",
+          "zh": "标普500成分企业的利润过去一年增长了20%以上。以历史标准衡量，利润率相当高。股市整体波动率较低。我们一直密切关注市场内部结构，观察各行业的表现。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Expectations for growth in both cap-ex and corporate earnings are running quite high. I will continue to watch the change in their growth rates, the second derivative. The follow-on effects on asset prices, business confidence, consumer income, and spending are equally important to gauge.",
+          "zh": "对资本开支和企业盈利增长的预期都相当高。我会继续观察它们增速的变化，也就是二阶导数。对资产价格、企业信心、居民收入和支出的后续影响，同样值得衡量。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Credit spreads on corporate bonds and leveraged loans are near the low ends of their historical ranges, and issuance volumes in these markets have been quite strong this year. Looking beyond fixed-income markets to the banking business, in the July Senior Loan Officer Opinion Survey on Bank Lending Practices, banks tell us that standards for commercial and industrial loans are on the easier end of their historical range. That helps explain the growth we've seen this year in those loans. Credit and loan markets are showing few signs of policy restraint.",
+          "zh": "公司债和杠杆贷款的信用利差接近其历史区间的低端，这些市场今年的发行量相当强劲。把目光从固定收益市场转向银行业务，在7月《高级信贷员对银行贷款实践的意见调查》中，银行告诉我们，工商业贷款标准处于其历史区间中偏宽松的一端。这有助于解释我们今年看到的此类贷款增长。信贷和贷款市场几乎没有显示出政策约束的迹象。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Certain sectors—like housing and agriculture—are showing strains. But, on balance, I would be hard pressed to describe broad financial conditions as restrictive.",
+          "zh": "某些行业，如住房和农业，正在显现压力。但总体而言，我很难用\"限制性\"来形容整体金融环境。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Real consumer spending has been healthy despite the shocks, increasing more than 2 percent over the past four quarters. Combining consumption with the brisk investment we've observed, private domestic final purchases (PDFP) has also risen. PDFP has increased at a pace of nearly 3 percent so far this calendar year. That's a measure that typically carries more signal than gross domestic product, and the trend here too is positive.",
+          "zh": "尽管遭遇冲击，实际消费支出依然健康，过去四个季度增长超过2%。把消费与我们观察到的旺盛投资结合起来，私人国内最终购买（PDFP）也在上升。本日历年迄今，PDFP以接近3%的速度增长。这一指标通常比国内生产总值含有更多信号，其趋势同样是正面的。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "On the employment side of the Fed's dual mandate, our country is doing well. Labor markets are quite stable. The jobless rate, at 4.1 percent, remains low by historical standards and has not changed much for a couple of years. Unemployment claims, on a four-week average—an empirically robust real-time indicator—are near their lowest level in decades.",
+          "zh": "在美联储双重使命的就业一侧，我们国家表现不错。劳动力市场相当稳定。失业率为4.1%，按历史标准仍处于低位，几年来变化不大。首次申领失业救济人数的四周均值是一个经验上稳健的实时指标，目前接近数十年来的最低水平。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "In my view, the relatively low turnover in today's labor market is partly a result of the significant rematching between employers and employees that happened at scale in the post-pandemic environment.",
+          "zh": "在我看来，当前劳动力市场相对较低的流动率，部分源于疫情后环境中雇主与雇员之间大规模发生的重新匹配。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "When labor supply is barely growing, monthly job gains are naturally going to run low. There are always areas of concern in the labor market—for example, among recent graduates. In general, though, people who want to work, by and large, are holding or finding jobs. They may well be concerned about possible future labor disruptions, but as of now, I believe the labor markets are consistent with full employment.",
+          "zh": "当劳动力供给几乎不增长时，月度新增就业自然会走低。劳动力市场中总有值得关切的领域，比如应届毕业生。但总体而言，想工作的人大多保住了工作或者找到了工作。他们很可能担心未来可能出现的就业扰动，但就目前而言，我认为劳动力市场与充分就业相一致。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "But on the price-stability side of our mandate, the numbers are more concerning. The Fed's preferred measure of inflation, the 12-month change in the PCE price index, stands at 3.7 percent, while the six-month change is 4.1 percent. The comparable measures from the consumer price index (CPI) are also elevated, as are the core measures of both PCE and CPI inflation. None of these measures are perfect, but they all tell a similar story: Inflation is running above our 2 percent target. So the Fed's predominant focus right now should be on prices.",
+          "zh": "但在我们使命的物价稳定一侧，数字更令人担忧。美联储最看重的通胀指标，即PCE价格指数的12个月变动为3.7%，6个月变动为4.1%。消费者价格指数（CPI）的相应指标也处于高位，PCE和CPI的核心通胀指标同样如此。这些指标都不完美，但它们讲述的是同一个故事：通胀正高于我们2%的目标。因此，美联储当前的首要关注点应当放在物价上。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "The job for policymakers is to capture underlying trend inflation—that is, the generalized change in prices in the economy, unaffected by idiosyncratic factors. We want to gauge whether underlying inflation is rising, falling, or stuck in place. We also want to understand not just the direction of travel, but also the speed. Each of these broad inflation measures has fallen significantly from their 2022 heights. But progress over the past two years has been modest.",
+          "zh": "政策制定者的工作，是把握基础趋势通胀，即经济中不受个别特殊因素影响的普遍性价格变动。我们想判断基础通胀是在上升、下降，还是原地不动。我们不仅想了解方向，还想了解速度。上述各项广义通胀指标都已从2022年的高点显著回落，但过去两年的进展有限。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "And while this summer's PCE and CPI readings were better than expected, they do not tell me that underlying trends have meaningfully improved.",
+          "zh": "尽管今年夏天的PCE和CPI数据好于预期，但它们并没有告诉我，基础趋势已经出现实质性改善。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "The data also show moderate wage growth. But in tracking underlying inflation, wage growth has not proven a reliable indicator of future inflation for a very long time.[18]",
+          "zh": "数据还显示工资增长温和。但在追踪基础通胀方面，很长时间以来，工资增长都未被证明是未来通胀的可靠指标。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "To try to gauge underlying inflation, I find it instructive to disaggregate the 199 individual components of the PCE price measure. Over the past 12 months, 54 percent of goods and services in the PCE basket showed price increases above 3 percent. This is well below the post-pandemic highs of about 77 percent, but it remains well above the level of 32 percent in the two decades that preceded the pandemic.",
+          "zh": "为了把握基础通胀，我发现把PCE价格指标的199个分项拆开来看很有启发。过去12个月，PCE篮子中54%的商品和服务价格涨幅超过3%。这远低于疫情后约77%的峰值，但仍远高于疫情前二十年32%的水平。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Looking over just the past six months, the conclusion is similar: Of goods and services in the PCE basket, 49 percent showed annualized price increases above 3 percent. Again, this is well below the post-pandemic highs but still quite elevated.",
+          "zh": "只看过去六个月，结论相似：PCE篮子中的商品和服务有49%年化价格涨幅超过3%。同样，这远低于疫情后的高点，但仍处于相当高的水平。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "The recent rise in overall commodity prices also bears watching. What we need to judge is whether trends indicate upside inflation risks.",
+          "zh": "近期大宗商品价格的整体上涨也值得观察。我们需要判断的是，这些趋势是否指向通胀的上行风险。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "It matters, too, whether the inflation readings of the past five-plus years have seeped into expectations. The good news is that measures of inflation expectations in the medium term, by and large, look stable. And inflation compensation measures from the swaps market send a strong and similar message.",
+          "zh": "过去五年多的通胀读数是否已经渗入通胀预期，这一点也很重要。好消息是，中期通胀预期的各项指标大体上看是稳定的。互换市场的通胀补偿指标也发出了强烈而相似的信息。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Especially in light of recent developments, it is a credit to the Fed as an institution—and consistent with the best of the Fed's traditions—that market prices show confidence that we will deliver price stability. And I can assure you . . . they're right.",
+          "zh": "尤其是鉴于近期的事态发展，市场价格显示出对我们能够交付物价稳定的信心，这是美联储作为一个机构的荣誉，也符合美联储最优良的传统。我可以向各位保证，市场的信心没有错。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "The thing about market measures of inflation expectations in economic history is that they tend to look strong and durable until they don't. Those expectations are not pushed around easily, and right now they are well anchored. But they must be closely minded. It's the Fed's job to make sure that inflation expectations do not get unanchored.",
+          "zh": "经济史上，市场化通胀预期指标的特点是，在失效之前总是显得坚固而持久。这些预期不容易被撼动，目前也锚定良好。但必须密切关注它们。确保通胀预期不失锚，是美联储的工作。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "There is one signal nobody can miss: The responsibility for 65 months of sustained, elevated inflation sits squarely with the central bank. And that is where it belongs.",
+          "zh": "有一个信号谁都无法忽视：65个月持续高通胀的责任，完全在央行身上。这本就该由央行承担。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "Here is my standard: We must be confident that underlying inflation is moving to our objective, clearly and at sufficient speed. Otherwise, we have work to do. That's our job . . . our mandate . . . and our charge to keep.",
+          "zh": "我的标准是：我们必须确信，基础通胀正在清晰地、以足够快的速度向我们的目标迈进。否则，我们就还有工作要做。这是我们的职责，是我们的使命，是我们必须坚守的托付。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "五、结语",
+        "en": "Conclusion",
+        "enStatus": "present"
+      },
+      "paragraphs": [
+        {
+          "en": "I stand here today committed to a discipline, not to a decision.",
+          "zh": "我今天站在这里，坚守的是一种纪律，而不是某个具体决定。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "My Fed colleagues and I are hardly the first to hold these positions in a time of great consequence. We are determined to redeem the time by doing our very best work.",
+          "zh": "我和美联储的同事们，并非第一批在大事关头的时刻身居这些职位的人。我们决心竭尽所能做好工作，不负这个时代。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "We take our responsibility seriously, with humility and with resolve. So much depends on choices we make. Sound monetary policy helps households and businesses to prosper. When carried out effectively, it broadens and deepens the momentum of our economy . . . and helps to secure America's leadership in the world. And I know that our country needs us to think carefully and act wisely.",
+          "zh": "我们以谦逊和决心认真对待自己的责任。有太多的东西取决于我们的选择。稳健的货币政策帮助家庭和企业走向繁荣。有效执行时，它能拓宽并加深我们经济的动能，并有助于巩固美国在世界上的领导地位。我知道，我们的国家需要我们审慎思考、明智行动。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        },
+        {
+          "en": "It is a tremendous honor to serve once again at the Federal Reserve. I am truly grateful for the encouragement and good counsel I've received from my colleagues . . . and from so many of you in this room. For that, and for your kind attention this morning, I thank you.",
+          "zh": "能再次在美联储任职，是我莫大的荣幸。我由衷感谢同事们，以及在座各位给予我的鼓励和良言。为此，也为各位今天上午的耐心聆听，我谢谢大家。",
+          "enStatus": "present",
+          "zhStatus": "present"
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    {
+      "n": 1,
+      "en": "See Lawrence H. Summers (2015), \"Have We Entered an Age of Secular Stagnation? IMF Fourteenth Annual Research Conference in Honor of Stanley Fischer, Washington, DC,\"IMF Economic Review,vol. 63 (1), pp. 277–80; and Ben S. Bernanke (2005), \"The Global Saving Glut and the U.S. Current Account Deficit,\" speech delivered at the Sandridge Lecture, Virginia Association of Economists, Richmond, Va., March 10.",
+      "zh": "参见劳伦斯·萨默斯（2015）《我们是否已进入长期停滞时代？》（《IMF经济评论》第63卷第1期）；以及本·伯南克（2005）《全球储蓄过剩与美国经常账户赤字》（2005年3月10日在弗吉尼亚州经济学家协会桑德里奇讲座上的演讲）。",
+      "enStatus": "present",
+      "zhStatus": "present"
+    },
+    {
+      "n": 2,
+      "en": "See Robert J. Gordon (2017),The Rise and Fall of American Growth: The U.S. Standard of Living since the Civil War(Princeton, N.J.: Princeton University Press).",
+      "zh": "参见罗伯特·戈登（2017）《美国增长的兴衰：内战以来的美国生活水平》（普林斯顿大学出版社）。",
+      "enStatus": "present",
+      "zhStatus": "present"
+    },
+    {
+      "n": 3,
+      "en": "See George P. Shultz and James Timbie (2020),A Hinge of History: Governance in an Emerging New World(Stanford, Calif.: Hoover Institution Press).",
+      "zh": "参见乔治·舒尔茨与詹姆斯·廷比（2020）《历史的转折点：新兴新世界(6.540, 0.20, 3.15%)的治理》（胡佛研究所出版社）。",
+      "enStatus": "present",
+      "zhStatus": "present"
+    },
+    {
+      "n": 4,
+      "en": "See Sha Sajadieh et al. (2026),The AI Index 2026 Annual Report(Stanford, Calif.: AI Index Steering Committee, Institute for Human-Centered AI, Stanford University, April).",
+      "zh": "参见斯坦福大学以人为本人工智能研究院AI指数指导委员会（2026）《2026年AI指数年度报告》。",
+      "enStatus": "present",
+      "zhStatus": "present"
+    },
+    {
+      "n": 5,
+      "en": "See Kevin M. Warsh (2014), \"Transparency and the Bank of England's Monetary Policy Committee,\" Review commissioned by the Bank of England (London: BOE, December).",
+      "zh": "参见凯文·沃什（2014）《透明度与英格兰银行货币政策委员会》（受英格兰银行委托的评估报告）。",
+      "enStatus": "present",
+      "zhStatus": "present"
+    },
+    {
+      "n": 6,
+      "en": "While forward guidance became a regular feature of Federal Open Market Committee (FOMC) policy statements beginning in December 2008, there are earlier examples of the practice; see Edward Nelson (2021), \"The Emergence of Forward Guidance as a Monetary Policy Tool,\" Finance and Economics Discussion Series 2021-033 (Washington: Board of Governors of the Federal Reserve System, May).",
+      "zh": "前瞻指引自2008年12月起成为FOMC政策声明的常规内容，但此前已有先例；参见爱德华·纳尔逊（2021）《前瞻指引作为货币政策工具的出现》（美联储金融与经济讨论系列2021-033）。",
+      "enStatus": "present",
+      "zhStatus": "present"
+    },
+    {
+      "n": 7,
+      "en": "Consistent with this concern, some evidence suggests that survey and market expectations adjust too slowly away from prior projections of the Summary of Economic Projections, resulting in predictable forecast errors; see Eric Engstrom (2026), \"Anchored to the Dot Plot: Central Bank Projections and Interest Rate Expectations,\" Finance and Economics Discussion Series 2026-026 (Washington: Board of Governors of the Federal Reserve System, May).",
+      "zh": "与这一担忧一致，有证据表明，调查和市场预期偏离《经济预测摘要》先前预测的调整速度过慢，导致可预测的预测误差；参见埃里克·恩格斯特罗姆（2026）《锚定于点阵图：央行预测与利率预期》（美联储金融与经济讨论系列2026-026）。",
+      "enStatus": "present",
+      "zhStatus": "present"
+    },
+    {
+      "n": 8,
+      "en": "See Ben S. Bernanke (2004), \"What Policymakers Can Learn from Asset Prices,\" speech delivered at the Investment Analysts Society of Chicago, Chicago, Ill., April 15; and Jeremy C. Stein and Adi Sunderam (2018), \"The Fed, the Bond Market, and Gradualism in Monetary Policy,\"Journal of Finance,vol. 73 (June), pp. 1015–60.",
+      "zh": "参见本·伯南克（2004）《政策制定者能从资产价格中学到什么》（2004年4月15日在芝加哥投资分析师协会的演讲）；以及杰里米·斯坦与阿迪·桑德拉姆（2018）《美联储、债券市场与货币政策渐进主义》（《金融学期刊》第73卷）。",
+      "enStatus": "present",
+      "zhStatus": "present"
+    },
+    {
+      "n": 9,
+      "en": "See Stephen Morris and Hyun Song Shin (2002), \"Social Value of Public Information,\"American Economic Review,vol. 92 (December), pp. 1521–34.",
+      "zh": "参见斯蒂芬·莫里斯与申铉松（2002）《公共信息的社会价值》（《美国经济评论》第92卷）。",
+      "enStatus": "present",
+      "zhStatus": "present"
+    },
+    {
+      "n": 10,
+      "en": "Romer and Romer argue that the 2021 inflation experience \"reinforces the view that forward guidance can be a barrier to reacting quickly to changed conditions and risks policy becoming overly based on internal considerations rather than macroeconomic fundamentals.\" See Christina D. Romer and David H. Romer (2026), \"An Early Retrospective on Monetary Policy in the Powell Era,\" Hutchins Center Working Paper 108 (Washington: Hutchins Center on Fiscal and Monetary Policy, June, page 3).",
+      "zh": "罗默夫妇认为，2021年的通胀经历\"强化了这样一种观点：前瞻指引可能成为对变化形势快速反应的障碍，并有使政策过度基于内部考量而非宏观经济基本面的风险\"。参见克里斯蒂娜·罗默与戴维·罗默（2026）《鲍威尔时代货币政策的早期回顾》（哈钦斯中心工作论文第108号）。",
+      "enStatus": "present",
+      "zhStatus": "present"
+    },
+    {
+      "n": 11,
+      "en": "This framing echoes Sherman Kent, who argued that intelligence must be \"useful to the people who make the decisions: that is, that it is relevant to their problems, that it is complete, accurate, and timely.\" See Sherman Kent (1949),Strategic Intelligence for American World Policy(Princeton, N.J.: Princeton University Press), page 69.",
+      "zh": "这一表述呼应了谢尔曼·肯特的观点，即情报必须\"对决策者有用：与其问题相关、完整、准确、及时\"。参见谢尔曼·肯特（1949）《美国世界政策的战略情报》（普林斯顿大学出版社，第69页）。",
+      "enStatus": "present",
+      "zhStatus": "present"
+    },
+    {
+      "n": 12,
+      "en": "See N. Gregory Mankiw (2024), \"Six Beliefs I Have About Inflation: Remarks Prepared for NBER Conference on 'Inflation in the Covid Era and Beyond',\"Journal of Monetary Economics,vol. 148 (November), 103631.",
+      "zh": "参见格里高利·曼昆（2024）《我对通胀的六个信念：为NBER\"新冠时代及其后的通胀\"会议准备的发言》（《货币经济学杂志》第148卷）。",
+      "enStatus": "present",
+      "zhStatus": "present"
+    },
+    {
+      "n": 13,
+      "en": "See Kevin M. Warsh (2022), \"Money Matters: The US Dollar, Cryptocurrency, and the National Interest,\" in Paul Ryan and Angela Rachidi, eds.,American Renewal(Washington: American Enterprise Institute), pp. 283−303.",
+      "zh": "参见凯文·沃什（2022）《货币攸关：美元、加密货币与国家利益》，载保罗·瑞安与安杰拉·拉奇迪编《美国复兴》（美国企业研究所）。",
+      "enStatus": "present",
+      "zhStatus": "present"
+    },
+    {
+      "n": 14,
+      "en": "As Ravi Menon, former managing director of the Monetary Authority of Singapore, has observed: \"The credibility of money is underpinned by this two-tier monetary structure where commercial banks create money and central banks preserve its value.\" See Ravi Menon (2021), \"The Future of Money, Finance and the Internet,\" speech delivered at the Singapore FinTech Festival, November 9, page 1.",
+      "zh": "正如新加坡金融管理局前局长孟文能（Ravi Menon）所言：\"货币的信誉由这种双层货币结构支撑：商业银行创造货币，中央银行维护其价值。\"参见孟文能（2021）《货币、金融与互联网的未来》（2021年11月9日新加坡金融科技节演讲）。",
+      "enStatus": "present",
+      "zhStatus": "present"
+    },
+    {
+      "n": 15,
+      "en": "See Scott McDonald (2020), \"Top 20 Quotes from Chuck Yeager, the First Man to Break the Sound Barrier,\"Newsweek,December 8.",
+      "zh": "参见斯科特·麦克唐纳（2020）《首位突破音障者查克·耶格尔的20句名言》（《新闻周刊》，2020年12月8日）。",
+      "enStatus": "present",
+      "zhStatus": "present"
+    },
+    {
+      "n": 16,
+      "en": "Or, as Kay and King put it, the question to ask is, \"What is going on here?\" See John Kay and Mervyn King (2020),Radical Uncertainty: Decision-Making Beyond the Numbers(New York: W.W. Norton & Company).",
+      "zh": "或者，用凯伊和金的话说，要问的问题是：\"这里到底发生了什么？\"参见约翰·凯伊与默文·金（2020）《极端不确定性：超越数字的决策》（诺顿出版社）。",
+      "enStatus": "present",
+      "zhStatus": "present"
+    },
+    {
+      "n": 17,
+      "en": "See Federal Open Market Committee (2026), \"Minutes of the Federal Open Market Committee: July 28–29, 2026\" (Washington: FOMC, July).",
+      "zh": "参见联邦公开市场委员会（2026）《2026年7月28至29日FOMC会议纪要》。",
+      "enStatus": "present",
+      "zhStatus": "present"
+    },
+    {
+      "n": 18,
+      "en": "See Gadi Barlevy and Luojia Hu (2023), \"Unit Labor Costs and Inflation in the Non-Housing Service Sector,\"Chicago Fed Letter 477(Federal Reserve Bank of Chicago, March); and Adam H. Shapiro (2023), \"How Much Do Labor Costs Drive Inflation?\" FRBSF Economic Letter 2023-13 (Federal Reserve Bank of San Francisco, May 30).",
+      "zh": "参见加迪·巴列维与胡洛佳（2023）《非住房服务部门的单位劳动成本与通胀》（芝加哥联储信函第477期）；以及亚当·夏皮罗（2023）《劳动力成本在多大程度上驱动通胀？》（旧金山联储经济信函2023-13）。",
+      "enStatus": "present",
+      "zhStatus": "present"
+    }
+  ]
+}

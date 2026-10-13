@@ -9,6 +9,8 @@
 - 本地：http://127.0.0.1:43123/
 - 线上页面：https://iris0614.github.io/global-finance-dashboard/
 - 某一期：https://iris0614.github.io/global-finance-dashboard/?date=2026-09-21
+- 讲话：http://127.0.0.1:43123/speech.html
+- 线上讲话：https://iris0614.github.io/global-finance-dashboard/speech.html
 
 ## 本地运行
 
@@ -22,6 +24,8 @@ python3 -m http.server 43123 --bind 0.0.0.0
 
 - 线上页面：https://iris0614.github.io/global-finance-dashboard/
 - 某一期：https://iris0614.github.io/global-finance-dashboard/?date=2026-09-21
+- 讲话：http://127.0.0.1:43123/speech.html
+- 线上讲话：https://iris0614.github.io/global-finance-dashboard/speech.html
 
 不带 `?date=` 时显示 `data/index.json` 里的 `latest`。选择日期后地址变为 `?date=YYYY-MM-DD`，刷新和前进后退都认这个参数。资源路径都是相对的，挂在 `https://<user>.github.io/<repo>/` 下也能载入。
 

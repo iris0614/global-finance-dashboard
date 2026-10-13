@@ -69,3 +69,28 @@ footer h4{margin:0 0 10px;font-size:13px;color:var(--strong);letter-spacing:.5px
 @media(max-width:900px){
   .datebar select{flex:1 1 100%}
 }
+
+.sitenav{margin:8px 0 0;font-size:12.5px;color:var(--muted);line-height:1.7}
+.sitenav a{color:var(--muted);text-decoration:none;border-bottom:1px dotted var(--line)}
+.sitenav a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+.sitenav .sep{margin:0 8px;color:var(--dim)}
+.langbar{display:inline}
+.langbar button{font-family:inherit;font-size:12.5px;font-weight:700;letter-spacing:.4px;color:var(--muted);
+  background:none;border:0;padding:0;cursor:pointer;line-height:inherit}
+.langbar button[aria-pressed="true"]{color:var(--strong)}
+.langbar button:hover{color:var(--accent)}
+.speech-meta a{color:var(--accent);text-decoration:none;border-bottom:1px dotted var(--accent)}
+.speech-meta a:hover{border-bottom-color:var(--accent)}
+.speech-stack{display:flex;flex-direction:column;gap:20px;margin-top:22px}
+.speech-stack h2{margin:0 0 8px;font-size:16.5px;color:var(--strong);font-weight:700;line-height:1.4}
+.speech-stack p{font-size:14.5px;margin:0 0 12px;overflow-wrap:anywhere}
+.speech-stack p:last-child{margin-bottom:0}
+.speech-stack .src{margin:0 0 11px}
+.fnref{font-size:10px;line-height:0}
+.fnref a{color:var(--accent);text-decoration:none}
+.missing{margin:0;font-size:13px;color:var(--muted);background:var(--panel2);border:1px dashed var(--line);border-radius:8px;padding:10px 12px}
+.footnotes summary{cursor:pointer;font-size:16.5px;font-weight:700;color:var(--strong)}
+.footnotes summary:focus{outline:2px solid var(--accent);outline-offset:3px}
+.footnotes ol{margin:14px 0 0;padding-left:1.4em}
+.footnotes li{font-size:12.5px;color:var(--muted);margin:0 0 8px;overflow-wrap:anywhere}
+.footnotes li:target{background:#f0f5fc}
